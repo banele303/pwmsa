@@ -28,10 +28,10 @@ export const metadata: Metadata = {
       "Comprehensive programmatic roadmap advancing women's rights, emancipation, and economic autonomy in South Africa.",
     images: [
       {
-        url: "https://pwmsa.org.za/wp-content/uploads/pwmsa-top-banner-scaled.png",
-        width: 2560,
-        height: 599,
-        alt: "PWMSA Strategic Pillars Banner",
+        url: "https://pwmsa.org.za/wp-content/uploads/2026/08/symbol@2x.png",
+        width: 1200,
+        height: 630,
+        alt: "PWMSA Strategic Pillars",
       },
     ],
   },
@@ -199,52 +199,86 @@ const pillarsDetailed = [
 export default function PillarsPage() {
   return (
     <div className="flex flex-col min-h-screen">
-      {/* ── HERO BANNER ── */}
-      <section className="relative bg-[#1a140d] text-white pt-28 pb-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-black via-[#1a140d]/90 to-transparent z-10" />
+      {/* ── HERO BANNER (YELLOW BRAND BACKGROUND) ── */}
+      <section className="relative bg-[#e8ce52] text-[#1f170e] pt-32 pb-16 lg:pt-36 lg:pb-20 overflow-hidden border-b border-amber-500/20">
+        {/* Subtle decorative glow elements */}
+        <div className="absolute -top-24 -right-24 w-96 h-96 bg-white/25 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-[#715832]/10 rounded-full blur-3xl pointer-events-none" />
 
-        <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl space-y-5">
-            <span className="inline-block bg-[#e8ce52] text-[#4a3720] text-xs font-black px-3.5 py-1.5 rounded-full uppercase tracking-wider">
-              Strategic Blueprint 2026 – 2030
-            </span>
-            <h1 className="text-4xl sm:text-6xl font-black tracking-tight leading-tight">
-              Our 6 Strategic <br />
-              <span className="text-[#e8ce52]">Programmatic Pillars</span>
-            </h1>
-            <p className="text-gray-300 text-lg leading-relaxed">
-              The Progressive Women&apos;s Movement of South Africa anchors all policy, grassroots campaigns, and institutional interventions around six interconnected pillars. These focus areas address the root causes of gender inequality, poverty, and violence.
-            </p>
-            <div className="flex flex-wrap gap-4 pt-2">
-              <a
-                href="#pillar-01"
-                className="bg-[#e8ce52] text-[#4a3720] px-6 py-3 rounded-xl font-bold text-sm hover:bg-white transition-colors"
-              >
-                Jump to Pillar 01
-              </a>
-              <Link
-                href="/partner"
-                className="border border-white/30 text-white px-6 py-3 rounded-xl font-bold text-sm hover:bg-white/10 transition-colors"
-              >
-                Fund or Partner a Pillar
-              </Link>
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+            {/* Main Hero Copy */}
+            <div className="lg:col-span-7 space-y-6">
+              <div className="inline-flex items-center gap-2 bg-[#2d2113] text-[#e8ce52] text-xs font-black px-4 py-1.5 rounded-full uppercase tracking-wider shadow-sm">
+                <span>Strategic Blueprint 2026 – 2030</span>
+              </div>
+
+              <h1 className="text-4xl sm:text-6xl font-black text-[#1f170e] tracking-tight leading-[1.08]">
+                Our 6 Strategic <br />
+                <span className="text-[#59401e]">Programmatic Pillars</span>
+              </h1>
+
+              <p className="text-[#3d2b17] text-lg sm:text-xl font-medium leading-relaxed max-w-2xl">
+                The Progressive Women&apos;s Movement of South Africa anchors all policy, grassroots campaigns, and institutional interventions around six interconnected pillars. These focus areas address the root causes of gender inequality, poverty, and violence.
+              </p>
+
+              <div className="flex flex-wrap gap-4 pt-2">
+                <a
+                  href="#pillar-01"
+                  className="inline-flex items-center gap-2 bg-[#1f170e] text-white px-7 py-3.5 rounded-xl font-bold text-sm hover:bg-[#3d2b17] shadow-lg shadow-[#1f170e]/20 hover:scale-[1.02] transition-all"
+                >
+                  Explore Pillars <ArrowRight size={16} />
+                </a>
+                <Link
+                  href="/partner"
+                  className="inline-flex items-center gap-2 bg-white/85 hover:bg-white text-[#1f170e] border border-[#1f170e]/20 px-7 py-3.5 rounded-xl font-bold text-sm shadow-sm hover:shadow transition-all"
+                >
+                  Fund or Partner a Pillar
+                </Link>
+              </div>
             </div>
-          </div>
-        </div>
-      </section>
 
-      {/* ── TOP BANNER GRAPHIC SECTION ── */}
-      <section className="relative w-full bg-[#e8ce52] overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="relative rounded-2xl overflow-hidden shadow-xl border-2 border-[#715832]/30">
-            <Image
-              src="https://pwmsa.org.za/wp-content/uploads/pwmsa-top-banner-scaled.png"
-              alt="PWMSA Top Banner"
-              width={2560}
-              height={599}
-              className="w-full h-auto object-cover"
-              priority
-            />
+            {/* Impact Directives Card */}
+            <div className="lg:col-span-5">
+              <div className="bg-white/85 backdrop-blur-md rounded-3xl p-6 sm:p-8 border-2 border-[#715832]/20 shadow-xl space-y-6">
+                <div className="flex items-center justify-between border-b border-amber-200/80 pb-4">
+                  <div>
+                    <span className="text-[11px] font-black uppercase tracking-widest text-[#715832]">
+                      National Directives
+                    </span>
+                    <h3 className="text-lg font-black text-gray-900">
+                      Measurable Targets
+                    </h3>
+                  </div>
+                  <span className="text-sm font-black text-[#715832] bg-[#e8ce52]/40 border border-amber-300 px-3 py-1 rounded-xl">
+                    6 Pillars Active
+                  </span>
+                </div>
+
+                <div className="grid grid-cols-2 gap-3.5">
+                  <div className="bg-[#faf6ee] p-3.5 rounded-2xl border border-amber-200/60">
+                    <div className="text-2xl font-black text-[#715832]">100%</div>
+                    <div className="text-xs text-gray-700 font-semibold mt-0.5">Victim-Centred Court Advocacy</div>
+                  </div>
+                  <div className="bg-[#faf6ee] p-3.5 rounded-2xl border border-amber-200/60">
+                    <div className="text-2xl font-black text-[#715832]">40%</div>
+                    <div className="text-xs text-gray-700 font-semibold mt-0.5">Preferential Procurement Goal</div>
+                  </div>
+                  <div className="bg-[#faf6ee] p-3.5 rounded-2xl border border-amber-200/60">
+                    <div className="text-2xl font-black text-[#715832]">50/50</div>
+                    <div className="text-xs text-gray-700 font-semibold mt-0.5">Statutory Gender Quota Drive</div>
+                  </div>
+                  <div className="bg-[#faf6ee] p-3.5 rounded-2xl border border-amber-200/60">
+                    <div className="text-2xl font-black text-[#715832]">100k+</div>
+                    <div className="text-xs text-gray-700 font-semibold mt-0.5">Dignity Packs Distributed</div>
+                  </div>
+                </div>
+
+                <p className="text-xs text-gray-600 leading-relaxed border-t border-amber-200/80 pt-4">
+                  Each pillar operates under direct mandate from the PWMSA National Steering Committee, driving monitored outcomes with grassroots tracking across all 9 provinces.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
