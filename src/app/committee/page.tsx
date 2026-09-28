@@ -42,6 +42,7 @@ const nationalLeaders = [
     role: "National Convenor",
     badge: "Executive Leadership",
     image: "/images/committee/angie-motshega.jpg",
+    imagePosition: "object-top",
     bio: "Angie Motshega serves as National Convenor of the Progressive Women's Movement of South Africa. A stalwart of gender activism and educational transformation with decades of public service, she provides strategic vision and high-level political guidance to the movement. Her lifelong activism is rooted in the tradition of South Africa's foundational women freedom fighters.",
     responsibilities: [
       "Custodian of the Movement's political direction and foundational charter.",
@@ -56,6 +57,7 @@ const nationalLeaders = [
     role: "National Convenor",
     badge: "Executive Leadership",
     image: "/images/committee/zingiswa-losi.jpg",
+    imagePosition: "object-[center_20%]",
     bio: "Zingiswa Losi is a National Convenor of PWMSA, bringing formidable grassroots mobilisation expertise and decades of working-class trade union activism. Her leadership ensures that the movement remains uncompromisingly centered on the lived realities of farm workers, domestic workers, informal traders, and rural women.",
     responsibilities: [
       "Mobilising trade union coalitions and informal sector women's leagues.",
@@ -70,6 +72,7 @@ const nationalLeaders = [
     role: "National Working Committee & Chief Executive Officer",
     badge: "Executive & Administration",
     image: "/images/committee/lulama-nare.jpg",
+    imagePosition: "object-top",
     bio: "Lulama Nare holds the dual mandate of serving on the National Working Committee and serving as the Chief Executive Officer of PWMSA. In this capacity, she is the chief administrative and operational architect of the movement, steering programme delivery, financial governance, donor accountability, and international partnerships.",
     responsibilities: [
       "Chief administrative executive running daily operations, secretariat staff, and programmes.",
@@ -84,6 +87,7 @@ const nationalLeaders = [
     role: "National Working Committee",
     badge: "NWC Portfolio Lead",
     image: "https://pwmsa.org.za/wp-content/uploads/20241012_164953-Copy-Copy-768x576.jpg",
+    imagePosition: "object-center",
     bio: "Getrude Mtswene is a pivotal member of the National Working Committee, leading community mobilisation and enterprise development portfolios. She has been instrumental in conceptualising and executing the WNC Women's Enterprise Incubator in Mpumalanga and building rapid response GBV networks.",
     responsibilities: [
       "National portfolio lead for the WNC Women's Economic Empowerment Fund.",
@@ -98,6 +102,7 @@ const nationalLeaders = [
     role: "National Working Committee",
     badge: "NWC Portfolio Lead",
     image: "https://pwmsa.org.za/wp-content/uploads/20250718_071213-768x576.jpg",
+    imagePosition: "object-center",
     bio: "Vuyelwa Hani is an esteemed member of the National Working Committee, stewarding the social justice, legal reform, and victim support desks. Her rigorous focus on constitutional enforcement ensures PWMSA holds institutional offenders and perpetrators of gender-based violence legally accountable.",
     responsibilities: [
       "Leading the Legal & Human Rights Sub-committee and pro-bono advocate networks.",
@@ -252,28 +257,40 @@ export default function CommitteePage() {
                 key={leader.name}
                 className="bg-white rounded-3xl overflow-hidden shadow-xl border border-amber-200/80 grid lg:grid-cols-12 gap-0 group"
               >
-                {/* Photo (4 cols) */}
-                <div className="lg:col-span-4 relative min-h-[320px] lg:min-h-full">
-                  <Image
-                    src={leader.image}
-                    alt={leader.name}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-700"
-                    sizes="(max-width: 1024px) 100vw, 33vw"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-                  <div className="absolute bottom-6 left-6 right-6 text-white">
-                    <span className="text-xs bg-[#e8ce52] text-[#4a3720] px-2.5 py-0.5 rounded font-black uppercase tracking-wider">
+                {/* Photo Column (4 cols) */}
+                <div className="lg:col-span-4 bg-gradient-to-b from-[#fdfbf7] to-[#f6f0e4] p-6 sm:p-8 flex flex-col items-center justify-center border-b lg:border-b-0 lg:border-r border-amber-200/70">
+                  <div className="relative w-48 sm:w-56 aspect-[3/4] rounded-2xl overflow-hidden shadow-lg border-2 border-amber-300/80 bg-white">
+                    <Image
+                      src={leader.image}
+                      alt={leader.name}
+                      fill
+                      unoptimized
+                      priority={i < 3}
+                      className={`object-cover ${leader.imagePosition || "object-top"} group-hover:scale-105 transition-transform duration-500`}
+                      sizes="(max-width: 640px) 192px, 224px"
+                    />
+                  </div>
+
+                  <div className="mt-4 text-center">
+                    <span className="inline-block text-[11px] bg-[#e8ce52] text-[#4a3720] px-3 py-1 rounded-full font-black uppercase tracking-wider shadow-sm">
                       {leader.badge}
                     </span>
-                    <h3 className="text-2xl font-black mt-2">{leader.name}</h3>
-                    <p className="text-[#e8ce52] text-sm font-semibold">{leader.role}</p>
+                    <h3 className="text-xl sm:text-2xl font-black text-gray-900 mt-2">{leader.name}</h3>
+                    <p className="text-[#715832] text-xs sm:text-sm font-bold mt-0.5">{leader.role}</p>
                   </div>
                 </div>
 
                 {/* Bio & Mandate (8 cols) */}
-                <div className="lg:col-span-8 p-8 lg:p-12 space-y-6 flex flex-col justify-between">
+                <div className="lg:col-span-8 p-6 sm:p-8 lg:p-10 space-y-6 flex flex-col justify-between">
                   <div className="space-y-4">
+                    <div className="hidden lg:block border-b border-amber-100 pb-3">
+                      <span className="text-xs bg-[#e8ce52]/40 text-[#4a3720] border border-amber-300/60 px-2.5 py-0.5 rounded font-black uppercase tracking-wider">
+                        {leader.badge}
+                      </span>
+                      <h3 className="text-2xl sm:text-3xl font-black text-gray-900 mt-1">{leader.name}</h3>
+                      <p className="text-[#715832] text-sm font-bold">{leader.role}</p>
+                    </div>
+
                     <p className="text-gray-700 text-base leading-relaxed">
                       {leader.bio}
                     </p>
