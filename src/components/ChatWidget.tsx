@@ -48,7 +48,7 @@ const KB: Array<{ patterns: RegExp[]; answer: string }> = [
   {
     patterns: [/committee|member|leadership|nwc|national working|convenor|ceo/i],
     answer:
-      "PWMSA's **National Working Committee (NWC)** includes:\n\n👩 **Angie Motshega** — National Convenor\n👩 **Zingiswa Losingie** — National Convenor\n👩 **Getrude Mtswene** — National Working Committee\n👩 **ALulama Nare** — NWC & Chief Executive Officer\n👩 **Vuyelwa Hani** — National Working Committee\n\nLearn more at [/committee](/committee).",
+      "PWMSA's **National Working Committee (NWC)** includes:\n\n👩 **Angie Motshega** — National Convenor\n👩 **Zingiswa Losi** — National Convenor\n👩 **Getrude Mtswene** — National Working Committee\n👩 **Lulama Nare** — NWC & Chief Executive Officer\n👩 **Vuyelwa Hani** — National Working Committee\n\nLearn more at [/committee](/committee).",
   },
   {
     patterns: [/angie|motshega/i],
@@ -56,14 +56,14 @@ const KB: Array<{ patterns: RegExp[]; answer: string }> = [
       "**Angie Motshega** is a National Convenor of PWMSA. With decades of experience in politics, education, and women's advocacy, she brings visionary leadership to the movement and is one of South Africa's most respected voices in the gender equality space.",
   },
   {
-    patterns: [/zingiswa|losingie/i],
+    patterns: [/zingiswa|losi|losingie/i],
     answer:
-      "**Zingiswa Losingie** is a National Convenor of PWMSA. Drawing on her background in trade unionism and civil society organising, she brings deep grassroots credibility and is committed to building a women's movement that speaks for all women.",
+      "**Zingiswa Losi** is a National Convenor of PWMSA. Drawing on her background in trade unionism and civil society organising, she brings deep grassroots credibility and is committed to building a women's movement that speaks for all women.",
   },
   {
-    patterns: [/alulama|nare|ceo|chief executive/i],
+    patterns: [/lulama|alulama|nare|ceo|chief executive/i],
     answer:
-      "**ALulama Nare** serves as both a National Working Committee member and the **Chief Executive Officer** of PWMSA. She provides strategic and operational leadership, overseeing all programmes, partnerships and organisational development.",
+      "**Lulama Nare** serves as both a National Working Committee member and the **Chief Executive Officer** of PWMSA. She provides strategic and operational leadership, overseeing all programmes, partnerships and organisational development.",
   },
   {
     patterns: [/contact|reach|phone|call|email|whatsapp|sophia|koko/i],

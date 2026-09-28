@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "National Leadership & Committee | PWMSA Governance",
     description:
-      "Profiles and portfolios of Angie Motshega, Zingiswa Losingie, Getrude Mtswene, ALulama Nare (CEO), Vuyelwa Hani, and provincial structures.",
+      "Profiles and portfolios of Angie Motshega, Zingiswa Losi, Getrude Mtswene, Lulama Nare (CEO), Vuyelwa Hani, and provincial structures.",
     images: [
       {
         url: "https://pwmsa.org.za/wp-content/uploads/pwmsa-ab1.jpg",
@@ -41,7 +41,7 @@ const nationalLeaders = [
     name: "Angie Motshega",
     role: "National Convenor",
     badge: "Executive Leadership",
-    image: "https://pwmsa.org.za/wp-content/uploads/pwmsa-ab1.jpg",
+    image: "/images/committee/angie-motshega.jpg",
     bio: "Angie Motshega serves as National Convenor of the Progressive Women's Movement of South Africa. A stalwart of gender activism and educational transformation with decades of public service, she provides strategic vision and high-level political guidance to the movement. Her lifelong activism is rooted in the tradition of South Africa's foundational women freedom fighters.",
     responsibilities: [
       "Custodian of the Movement's political direction and foundational charter.",
@@ -52,11 +52,11 @@ const nationalLeaders = [
     experience: "Over 35 years in education policy, gender advocacy, and national governance.",
   },
   {
-    name: "Zingiswa Losingie",
+    name: "Zingiswa Losi",
     role: "National Convenor",
     badge: "Executive Leadership",
-    image: "https://pwmsa.org.za/wp-content/uploads/pwmsa-ab2.jpg",
-    bio: "Zingiswa Losingie is a National Convenor of PWMSA, bringing formidable grassroots mobilisation expertise and decades of working-class trade union activism. Her leadership ensures that the movement remains uncompromisingly centered on the lived realities of farm workers, domestic workers, informal traders, and rural women.",
+    image: "/images/committee/zingiswa-losi.jpg",
+    bio: "Zingiswa Losi is a National Convenor of PWMSA, bringing formidable grassroots mobilisation expertise and decades of working-class trade union activism. Her leadership ensures that the movement remains uncompromisingly centered on the lived realities of farm workers, domestic workers, informal traders, and rural women.",
     responsibilities: [
       "Mobilising trade union coalitions and informal sector women's leagues.",
       "Direct oversight of provincial grassroots branch consolidation.",
@@ -66,11 +66,11 @@ const nationalLeaders = [
     experience: "Prominent veteran of labour federation leadership, worker rights advocacy, and civic movement building.",
   },
   {
-    name: "ALulama Nare",
+    name: "Lulama Nare",
     role: "National Working Committee & Chief Executive Officer",
     badge: "Executive & Administration",
-    image: "https://pwmsa.org.za/wp-content/uploads/20250718_080227-768x576.jpg",
-    bio: "ALulama Nare holds the dual mandate of serving on the National Working Committee and serving as the Chief Executive Officer of PWMSA. In this capacity, she is the chief administrative and operational architect of the movement, steering programme delivery, financial governance, donor accountability, and international partnerships.",
+    image: "/images/committee/lulama-nare.jpg",
+    bio: "Lulama Nare holds the dual mandate of serving on the National Working Committee and serving as the Chief Executive Officer of PWMSA. In this capacity, she is the chief administrative and operational architect of the movement, steering programme delivery, financial governance, donor accountability, and international partnerships.",
     responsibilities: [
       "Chief administrative executive running daily operations, secretariat staff, and programmes.",
       "Presenting legislative petitions, such as the Women's Parliament Declaration Report.",
