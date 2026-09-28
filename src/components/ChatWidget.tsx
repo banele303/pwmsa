@@ -48,7 +48,7 @@ const KB: Array<{ patterns: RegExp[]; answer: string }> = [
   {
     patterns: [/committee|member|leadership|nwc|national working|convenor|ceo/i],
     answer:
-      "PWMSA's **National Working Committee (NWC)** includes:\n\n👩 **Angie Motshega** — National Convenor\n👩 **Zingiswa Losi** — National Convenor\n👩 **Getrude Mtswene** — National Working Committee\n👩 **Lulama Nare** — NWC & Chief Executive Officer\n👩 **Vuyelwa Hani** — National Working Committee\n\nLearn more at [/committee](/committee).",
+      "PWMSA's **National Working Committee (NWC)** includes:\n\n👩 **Angie Motshega** — National Convenor\n👩 **Zingiswa Losi** — National Convenor\n👩 **Gertrude Mtsheni** — National Working Committee\n👩 **Lulama Nare** — NWC & Chief Executive Officer\n👩 **Vuyelwa Hani** — National Working Committee\n\nLearn more at [/committee](/committee).",
   },
   {
     patterns: [/angie|motshega/i],
@@ -59,6 +59,11 @@ const KB: Array<{ patterns: RegExp[]; answer: string }> = [
     patterns: [/zingiswa|losi|losingie/i],
     answer:
       "**Zingiswa Losi** is a National Convenor of PWMSA. Drawing on her background in trade unionism and civil society organising, she brings deep grassroots credibility and is committed to building a women's movement that speaks for all women.",
+  },
+  {
+    patterns: [/gertrude|mtsheni|mtswene/i],
+    answer:
+      "**Gertrude Mtsheni** is a member of the National Working Committee of PWMSA, leading grassroots community mobilisation and enterprise development portfolios.",
   },
   {
     patterns: [/lulama|alulama|nare|ceo|chief executive/i],

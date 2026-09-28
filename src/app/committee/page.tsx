@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "National Leadership & Committee | PWMSA Governance",
     description:
-      "Profiles and portfolios of Angie Motshega, Zingiswa Losi, Getrude Mtswene, Lulama Nare (CEO), Vuyelwa Hani, and provincial structures.",
+      "Profiles and portfolios of Angie Motshega, Zingiswa Losi, Gertrude Mtsheni, Lulama Nare (CEO), Vuyelwa Hani, and provincial structures.",
     images: [
       {
         url: "https://pwmsa.org.za/wp-content/uploads/pwmsa-ab1.jpg",
@@ -83,12 +83,12 @@ const nationalLeaders = [
     experience: "Experienced executive in institutional governance, gender-responsive budgeting, and human rights law.",
   },
   {
-    name: "Getrude Mtswene",
+    name: "Gertrude Mtsheni",
     role: "National Working Committee",
     badge: "NWC Portfolio Lead",
-    image: "https://pwmsa.org.za/wp-content/uploads/20241012_164953-Copy-Copy-768x576.jpg",
-    imagePosition: "object-center",
-    bio: "Getrude Mtswene is a pivotal member of the National Working Committee, leading community mobilisation and enterprise development portfolios. She has been instrumental in conceptualising and executing the WNC Women's Enterprise Incubator in Mpumalanga and building rapid response GBV networks.",
+    image: "/images/committee/gertrude-mtsheni.jpg",
+    imagePosition: "object-[center_15%]",
+    bio: "Gertrude Mtsheni is a pivotal member of the National Working Committee, leading community mobilisation and enterprise development portfolios. She has been instrumental in conceptualising and executing the WNC Women's Enterprise Incubator in Mpumalanga and building rapid response GBV networks.",
     responsibilities: [
       "National portfolio lead for the WNC Women's Economic Empowerment Fund.",
       "Coordinating provincial field operations and township community dialogues.",
