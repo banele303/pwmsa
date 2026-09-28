@@ -101,8 +101,8 @@ const nationalLeaders = [
     name: "Vuyelwa Hani",
     role: "National Working Committee",
     badge: "NWC Portfolio Lead",
-    image: "https://pwmsa.org.za/wp-content/uploads/20250718_071213-768x576.jpg",
-    imagePosition: "object-center",
+    image: "/images/committee/vuyelwa-hani.jpg",
+    imagePosition: "object-top",
     bio: "Vuyelwa Hani is an esteemed member of the National Working Committee, stewarding the social justice, legal reform, and victim support desks. Her rigorous focus on constitutional enforcement ensures PWMSA holds institutional offenders and perpetrators of gender-based violence legally accountable.",
     responsibilities: [
       "Leading the Legal & Human Rights Sub-committee and pro-bono advocate networks.",
