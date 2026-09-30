@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "National Leadership & Committee | PWMSA Governance",
     description:
-      "Profiles and portfolios of Angie Motshega, Zingiswa Losi, Me Getrude Mtsweni, Lulama Nare (CEO), Vuyiwe Hani, and provincial structures.",
+      "Profiles and portfolios of Angie Motshega, Zingiswa Losi, Me Getrude Mtsweni, Lulama Nare (CEO), Vuyiwe Hani, Syvia Maphala, and provincial structures.",
     images: [
       {
         url: "https://pwmsa.org.za/wp-content/uploads/pwmsa-ab1.jpg",
@@ -111,6 +111,21 @@ const nationalLeaders = [
       "Founder of New Women Today (NEWTO) and coordinator of programmes in education, youth development, skills development and community advancement.",
     ],
     experience: "Qualifications in Governance and Leadership, Advanced Governance and Public Leadership, and Research Awareness for Leaders and Transitional Justice.",
+  },
+  {
+    name: "Syvia Maphala",
+    role: "National Working Committee Member",
+    badge: "National Working Committee",
+    image: "/images/committee/syvia-maphala.jpg",
+    imagePosition: "object-top",
+    bio: "Syvia Maphala is a lifelong liberation activist and National Working Committee (NWC) Member of PWMSA (2025 to date), having previously served as PWMSA Sub-committee Chairperson (2017 – 2020).\n\nCapricorn & Mopani Regions: An activist from a young age, she joined BOYCO (Botlokwa Youth Congress) in 1980 and served as SRC President at Kgarahara High School (1988). She joined uMkhonto we Sizwe (MK) in 1984 in Trichardsdal, and later served as College SRC Female Convener (1990), Giyani South CIVIC Sub-regional Chairperson (1993), SADTU Giyani South Branch Chairperson (1993), ANC Khashane Branch Chairperson (1993), ANCYL Phalaborwa Sub-region Deputy Chairperson (1997), and ANC Dumitri Branch Secretary and ANCWL Chairperson (1997).\n\nProvincial, National & International Leadership: At the provincial level, she served as Deputy Chairperson of Moral Regeneration (2019) and MKLWV PEC Member (2022 to date). Nationally, she served as ANC NCOP Advisor (2014 – 2019), SANCO National Women Desk Convener, and SANCO 2nd Deputy General Secretary (2023 to date). Internationally, she served as President of African People and Human Rights for Women (2018) and President of China Investigation Bureau (2019).",
+    responsibilities: [
+      "PWMSA National Working Committee (NWC) Member (2025 to date) & former PWMSA Sub-committee Chairperson (2017 – 2020).",
+      "SANCO 2nd Deputy General Secretary (2023 to date) & SANCO National Women Desk Convener.",
+      "MKLWV Provincial Executive Committee (PEC) Member (2022 to date) & former ANC NCOP Advisor (2014 – 2019).",
+      "President of African People and Human Rights for Women (2018) & Deputy Chairperson of Moral Regeneration (2019).",
+    ],
+    experience: "Veteran of uMkhonto we Sizwe (joined 1984) and BOYCO (1980), with over four decades of civic, labour (SADTU), parliamentary (NCOP), and international women's rights leadership.",
   },
 ];
 

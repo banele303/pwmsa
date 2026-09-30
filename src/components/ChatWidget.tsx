@@ -48,7 +48,7 @@ const KB: Array<{ patterns: RegExp[]; answer: string }> = [
   {
     patterns: [/committee|member|leadership|nwc|national working|convenor|ceo/i],
     answer:
-      "PWMSA's **National Working Committee (NWC)** includes:\n\n👩 **Angie Motshega** — National Convenor\n👩 **Zingiswa Losi** — National Convenor\n👩 **Me Getrude Mtsweni** — National Working Committee\n👩 **Lulama Nare** — NWC & Chief Executive Officer\n👩 **Vuyiwe Hani** — National Working Committee\n\nLearn more at [/committee](/committee).",
+      "PWMSA's **National Working Committee (NWC)** includes:\n\n👩 **Angie Motshega** — National Convenor\n👩 **Zingiswa Losi** — National Convenor\n👩 **Me Getrude Mtsweni** — National Working Committee\n👩 **Lulama Nare** — NWC & Chief Executive Officer\n👩 **Vuyiwe Hani** — National Working Committee\n👩 **Syvia Maphala** — National Working Committee\n\nLearn more at [/committee](/committee).",
   },
   {
     patterns: [/angie|motshega/i],
@@ -74,6 +74,11 @@ const KB: Array<{ patterns: RegExp[]; answer: string }> = [
     patterns: [/vuyiwe|vuyelwa|hani|newto/i],
     answer:
       "**Vuyiwe Hani** is a National Working Committee (NWC) Member of PWMSA, an NEC Member of the ANC Women’s League (ANCWL), and PR Councillor & Leader of the Opposition at the Cape Winelands District Municipality. She founded New Women Today (NEWTO) and holds qualifications in Governance, Public Leadership, and Transitional Justice.",
+  },
+  {
+    patterns: [/syvia|sylvia|maphala|sanco/i],
+    answer:
+      "**Syvia Maphala** is a National Working Committee (NWC) Member of PWMSA (2025 to date) and veteran of uMkhonto we Sizwe (joined 1984) and BOYCO (1980). She also serves as SANCO 2nd Deputy General Secretary, MKLWV PEC Member, and previously served as ANC NCOP Advisor (2014–2019) and PWMSA Sub-committee Chairperson (2017–2020).",
   },
   {
     patterns: [/contact|reach|phone|call|email|whatsapp|sophia|koko/i],
