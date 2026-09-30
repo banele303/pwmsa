@@ -398,7 +398,7 @@ export default function AboutPage() {
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
           {/* Header Block */}
-          <div className="max-w-3xl mx-auto text-center space-y-4">
+          <div className="max-w-4xl mx-auto text-center space-y-4">
             <span className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-[#715832] bg-[#e8ce52]/25 border border-[#e8ce52]/40 px-3.5 py-1.5 rounded-full">
               Historical Legacy &amp; Founding Story
             </span>
@@ -406,9 +406,14 @@ export default function AboutPage() {
               About the Progressive Women&apos;s Movement of South Africa
             </h2>
             <div className="w-16 h-1 bg-[#e8ce52] rounded-full mx-auto" />
-            <p className="text-gray-700 text-base sm:text-lg leading-relaxed pt-2">
-              The <strong className="text-[#715832] font-semibold">Progressive Women&apos;s Movement of South Africa (PWMSA)</strong> was formally established on <strong className="text-black font-semibold">08th August 2006 in Bloemfontein</strong> in response to the ongoing marginalisation, patriarchal domination, and systemic violence experienced by women across our country.
-            </p>
+            <div className="text-gray-700 text-base sm:text-lg leading-relaxed pt-2 space-y-4">
+              <p>
+                The <strong className="text-[#715832] font-semibold">Progressive Women&apos;s Movement of South Africa (PWMSA)</strong> traces its roots back to October 2005, when the National Executive Committee (NEC) of the ANC Women&apos;s League decided to formalize a broad-based movement. The PWMSA was officially launched in <strong className="text-black font-semibold">August 2006</strong>, chosen to mark the 50th Anniversary of the historical 1956 Women&apos;s March to Pretoria.
+              </p>
+              <p>
+                The historical foundation draws inspiration from earlier pioneer movements—such as the <strong className="text-black font-semibold">Bantu Women&apos;s League (1918)</strong>, the <strong className="text-black font-semibold">Federation of South African Women (FEDSAW, 1954)</strong> which led to the 1954 Women&apos;s Charter, and the <strong className="text-black font-semibold">Pan Africanist Women Organization (PAWO, 1962)</strong>. The core historical mission was to consolidate efforts aimed at addressing the systemic marginalization, poverty, and social and political challenges faced by women across South Africa.
+              </p>
+            </div>
           </div>
 
           {/* Historic Quote Callout Box */}
