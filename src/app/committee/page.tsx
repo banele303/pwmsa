@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "National Leadership & Committee | PWMSA Governance",
     description:
-      "Profiles and portfolios of Angie Motshega, Zingiswa Losi, Gertrude Mtsheni, Lulama Nare (CEO), Vuyelwa Hani, and provincial structures.",
+      "Profiles and portfolios of Angie Motshega, Zingiswa Losi, Gertrude Mtsheni, Lulama Nare (CEO), Vuyiwe Hani, and provincial structures.",
     images: [
       {
         url: "https://pwmsa.org.za/wp-content/uploads/pwmsa-ab1.jpg",
@@ -98,19 +98,19 @@ const nationalLeaders = [
     experience: "Over two decades in community development, cooperative economics, and municipal governance.",
   },
   {
-    name: "Vuyelwa Hani",
+    name: "Vuyiwe Hani",
     role: "National Working Committee",
-    badge: "NWC Portfolio Lead",
-    image: "/images/committee/vuyelwa-hani.jpg",
+    badge: "NWC Member & Governance",
+    image: "/images/committee/vuyiwe-hani.jpg",
     imagePosition: "object-top",
-    bio: "Vuyelwa Hani is an esteemed member of the National Working Committee, stewarding the social justice, legal reform, and victim support desks. Her rigorous focus on constitutional enforcement ensures PWMSA holds institutional offenders and perpetrators of gender-based violence legally accountable.",
+    bio: "Vuyiwe Hani is an experienced public representative, governance professional and community development practitioner with extensive experience in public leadership, stakeholder engagement, women empowerment and community development.\n\nShe currently serves as a PR Councillor and Leader of the Opposition at the Cape Winelands District Municipality, where she contributes to governance, oversight, public accountability and community advocacy. She is a Member of the National Executive Committee (NEC) of the ANC Women’s League (ANCWL) and serves as a National Working Committee (NWC) Member of PWMSA, contributing to women's leadership, empowerment and organisational development.\n\nHer professional experience spans government, education, social development and community empowerment, including leadership and coordination of programmes focused on education, youth development, skills development and community advancement. Vuyiwe has a longstanding commitment to women's empowerment and gender equality. During her university years, she founded New Women Today (NEWTO), an organisation focused on women's empowerment, gender equality, safety and advocacy.",
     responsibilities: [
-      "Leading the Legal & Human Rights Sub-committee and pro-bono advocate networks.",
-      "Directing court monitoring operations for sexual assault and domestic violence cases.",
-      "Spearheading campaigns against institutional and faith-based abuse.",
-      "Managing civil society submissions on legislative amendments and criminal procedure acts.",
+      "National Working Committee (NWC) Member of PWMSA contributing to women's leadership, empowerment and organisational development.",
+      "PR Councillor and Leader of the Opposition at the Cape Winelands District Municipality (governance, oversight & public accountability).",
+      "Member of the National Executive Committee (NEC) of the ANC Women’s League (ANCWL).",
+      "Founder of New Women Today (NEWTO) and coordinator of programmes in education, youth development, skills development and community advancement.",
     ],
-    experience: "Renowned human rights campaigner, paralegal trainer, and community mediator.",
+    experience: "Qualifications in Governance and Leadership, Advanced Governance and Public Leadership, and Research Awareness for Leaders and Transitional Justice.",
   },
 ];
 
@@ -291,7 +291,7 @@ export default function CommitteePage() {
                       <p className="text-[#715832] text-sm font-bold">{leader.role}</p>
                     </div>
 
-                    <p className="text-gray-700 text-base leading-relaxed">
+                    <p className="text-gray-700 text-base leading-relaxed whitespace-pre-line">
                       {leader.bio}
                     </p>
 

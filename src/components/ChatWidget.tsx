@@ -48,7 +48,7 @@ const KB: Array<{ patterns: RegExp[]; answer: string }> = [
   {
     patterns: [/committee|member|leadership|nwc|national working|convenor|ceo/i],
     answer:
-      "PWMSA's **National Working Committee (NWC)** includes:\n\n👩 **Angie Motshega** — National Convenor\n👩 **Zingiswa Losi** — National Convenor\n👩 **Gertrude Mtsheni** — National Working Committee\n👩 **Lulama Nare** — NWC & Chief Executive Officer\n👩 **Vuyelwa Hani** — National Working Committee\n\nLearn more at [/committee](/committee).",
+      "PWMSA's **National Working Committee (NWC)** includes:\n\n👩 **Angie Motshega** — National Convenor\n👩 **Zingiswa Losi** — National Convenor\n👩 **Gertrude Mtsheni** — National Working Committee\n👩 **Lulama Nare** — NWC & Chief Executive Officer\n👩 **Vuyiwe Hani** — National Working Committee\n\nLearn more at [/committee](/committee).",
   },
   {
     patterns: [/angie|motshega/i],
@@ -69,6 +69,11 @@ const KB: Array<{ patterns: RegExp[]; answer: string }> = [
     patterns: [/lulama|alulama|nare|ceo|chief executive/i],
     answer:
       "**Lulama Nare** serves as both a National Working Committee member and the **Chief Executive Officer** of PWMSA. She provides strategic and operational leadership, overseeing all programmes, partnerships and organisational development.",
+  },
+  {
+    patterns: [/vuyiwe|vuyelwa|hani|newto/i],
+    answer:
+      "**Vuyiwe Hani** is a National Working Committee (NWC) Member of PWMSA, an NEC Member of the ANC Women’s League (ANCWL), and PR Councillor & Leader of the Opposition at the Cape Winelands District Municipality. She founded New Women Today (NEWTO) and holds qualifications in Governance, Public Leadership, and Transitional Justice.",
   },
   {
     patterns: [/contact|reach|phone|call|email|whatsapp|sophia|koko/i],
