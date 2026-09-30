@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "National Leadership & Committee | PWMSA Governance",
     description:
-      "Profiles and portfolios of Angie Motshega, Zingiswa Losi, Me Getrude Mtsweni, Lulama Nare (CEO), Vuyiwe Hani, Syvia Maphala, Thandie Shongwe, and provincial structures.",
+      "Profiles and portfolios of Angie Motshega, Zingiswa Losi, Me Getrude Mtsweni, Lulama Nare (CEO), Vuyiwe Hani, Syvia Maphala, Thandie Shongwe, Sophia Hlonipha Sikhosana, and provincial structures.",
     images: [
       {
         url: "https://pwmsa.org.za/wp-content/uploads/pwmsa-ab1.jpg",
@@ -113,12 +113,12 @@ const nationalLeaders = [
     experience: "Qualifications in Governance and Leadership, Advanced Governance and Public Leadership, and Research Awareness for Leaders and Transitional Justice.",
   },
   {
-    name: "Syvia Maphala",
+    name: "Sylvia Maphala",
     role: "National Working Committee Member",
     badge: "National Working Committee",
     image: "/images/committee/syvia-maphala.jpg",
-    imagePosition: "object-top",
-    bio: "Syvia Maphala is a lifelong liberation activist and National Working Committee (NWC) Member of PWMSA (2025 to date), having previously served as PWMSA Sub-committee Chairperson (2017 – 2020).\n\nCapricorn & Mopani Regions: An activist from a young age, she joined BOYCO (Botlokwa Youth Congress) in 1980 and served as SRC President at Kgarahara High School (1988). She joined uMkhonto we Sizwe (MK) in 1984 in Trichardsdal, and later served as College SRC Female Convener (1990), Giyani South CIVIC Sub-regional Chairperson (1993), SADTU Giyani South Branch Chairperson (1993), ANC Khashane Branch Chairperson (1993), ANCYL Phalaborwa Sub-region Deputy Chairperson (1997), and ANC Dumitri Branch Secretary and ANCWL Chairperson (1997).\n\nProvincial, National & International Leadership: At the provincial level, she served as Deputy Chairperson of Moral Regeneration (2019) and MKLWV PEC Member (2022 to date). Nationally, she served as ANC NCOP Advisor (2014 – 2019), SANCO National Women Desk Convener, and SANCO 2nd Deputy General Secretary (2023 to date). Internationally, she served as President of African People and Human Rights for Women (2018) and President of China Investigation Bureau (2019).",
+    imagePosition: "object-[65%_25%]",
+    bio: "Sylvia Maphala is a lifelong liberation activist and National Working Committee (NWC) Member of PWMSA (2025 to date), having previously served as PWMSA Sub-committee Chairperson (2017 – 2020).\n\nCapricorn & Mopani Regions: An activist from a young age, she joined BOYCO (Botlokwa Youth Congress) in 1980 and served as SRC President at Kgarahara High School (1988). She joined uMkhonto we Sizwe (MK) in 1984 in Trichardsdal, and later served as College SRC Female Convener (1990), Giyani South CIVIC Sub-regional Chairperson (1993), SADTU Giyani South Branch Chairperson (1993), ANC Khashane Branch Chairperson (1993), ANCYL Phalaborwa Sub-region Deputy Chairperson (1997), and ANC Dumitri Branch Secretary and ANCWL Chairperson (1997).\n\nProvincial, National & International Leadership: At the provincial level, she served as Deputy Chairperson of Moral Regeneration (2019) and MKLWV PEC Member (2022 to date). Nationally, she served as ANC NCOP Advisor (2014 – 2019), SANCO National Women Desk Convener, and SANCO 2nd Deputy General Secretary (2023 to date). Internationally, she served as President of African People and Human Rights for Women (2018) and President of China Investigation Bureau (2019).",
     responsibilities: [
       "PWMSA National Working Committee (NWC) Member (2025 to date) & former PWMSA Sub-committee Chairperson (2017 – 2020).",
       "SANCO 2nd Deputy General Secretary (2023 to date) & SANCO National Women Desk Convener.",
@@ -141,6 +141,21 @@ const nationalLeaders = [
       "Former Malibongwe Board Director, Ehlanzeni MMC for Community Services, and veteran SADTU & student leader.",
     ],
     experience: "BA Degree & Higher Education Diplomas (Vista University), Further Diploma in Educational Management, and Postgraduate Certificate & Advanced Diploma in Public Governance and Public Leadership (Wits University).",
+  },
+  {
+    name: "Sophia Hlonipha Sikhosana",
+    role: "PWMSA National Working Committee | Communications Officer",
+    badge: "NWC & Communications",
+    image: "/images/committee/sophia-hlonipha-sikhosana.jpg",
+    imagePosition: "object-top",
+    bio: "Sophia Hlonipha Sikhosana is an entrepreneur, communications strategist, publisher, writer, editor, life coach, inspirational speaker and social impact advocate. She is the Founder and CEO of Innovizt Content Solutions, where she works across publishing, content development, communications, project management, brand strategy and business solutions.\n\nWith extensive experience in publishing and storytelling, Sophia has worked with authors, organisations and entrepreneurs, helping transform ideas into books, campaigns, brands and professional communication platforms. She is passionate about using communication and storytelling to amplify voices, particularly those of women and communities.\n\nAs a PWMSA National Working Committee Communications Officer, Sophia contributes her expertise in strategic communication, media, content creation, advocacy and public engagement to strengthen the organisation’s voice and advance its work in women’s empowerment, gender equality and the fight against GBVF.\n\nShe is also a recognised inspirational speaker and African Peace Magazine awardee, with a strong passion for resilience, women’s leadership, empowerment and turning ideas into meaningful action.",
+    responsibilities: [
+      "PWMSA National Working Committee (NWC) Communications Officer leading strategic communication, media relations, content creation, advocacy and public engagement.",
+      "Amplifying PWMSA's national voice in advancing women’s empowerment, gender equality and the eradication of Gender-Based Violence and Femicide (GBVF).",
+      "Founder and CEO of Innovizt Content Solutions, overseeing publishing, content development, project management, brand strategy and business solutions.",
+      "Transforming ideas into campaigns, books, brands and communication platforms that elevate the voices of women and communities.",
+    ],
+    experience: "Founder & CEO of Innovizt Content Solutions, publisher, communications strategist, inspirational speaker, and African Peace Magazine Awardee.",
   },
 ];
 

@@ -48,7 +48,7 @@ const KB: Array<{ patterns: RegExp[]; answer: string }> = [
   {
     patterns: [/committee|member|leadership|nwc|national working|convenor|ceo/i],
     answer:
-      "PWMSA's **National Working Committee (NWC)** includes:\n\n👩 **Angie Motshega** — National Convenor\n👩 **Zingiswa Losi** — National Convenor\n👩 **Me Getrude Mtsweni** — National Working Committee\n👩 **Lulama Nare** — NWC & Chief Executive Officer\n👩 **Vuyiwe Hani** — National Working Committee\n👩 **Syvia Maphala** — National Working Committee\n👩 **Thandie Shongwe** — National Working Committee\n\nLearn more at [/committee](/committee).",
+      "PWMSA's **National Working Committee (NWC)** includes:\n\n👩 **Angie Motshega** — National Convenor\n👩 **Zingiswa Losi** — National Convenor\n👩 **Me Getrude Mtsweni** — National Working Committee\n👩 **Lulama Nare** — NWC & Chief Executive Officer\n👩 **Vuyiwe Hani** — National Working Committee\n👩 **Sylvia Maphala** — National Working Committee\n👩 **Thandie Shongwe** — National Working Committee\n👩 **Sophia Hlonipha Sikhosana** — NWC | Communications Officer\n\nLearn more at [/committee](/committee).",
   },
   {
     patterns: [/angie|motshega/i],
@@ -78,7 +78,7 @@ const KB: Array<{ patterns: RegExp[]; answer: string }> = [
   {
     patterns: [/syvia|sylvia|maphala|sanco/i],
     answer:
-      "**Syvia Maphala** is a National Working Committee (NWC) Member of PWMSA (2025 to date) and veteran of uMkhonto we Sizwe (joined 1984) and BOYCO (1980). She also serves as SANCO 2nd Deputy General Secretary, MKLWV PEC Member, and previously served as ANC NCOP Advisor (2014–2019) and PWMSA Sub-committee Chairperson (2017–2020).",
+      "**Sylvia Maphala** is a National Working Committee (NWC) Member of PWMSA (2025 to date) and veteran of uMkhonto we Sizwe (joined 1984) and BOYCO (1980). She also serves as SANCO 2nd Deputy General Secretary, MKLWV PEC Member, and previously served as ANC NCOP Advisor (2014–2019) and PWMSA Sub-committee Chairperson (2017–2020).",
   },
   {
     patterns: [/thandie|thandi|shongwe|blessing/i],
@@ -86,9 +86,14 @@ const KB: Array<{ patterns: RegExp[]; answer: string }> = [
       "**Thandie Shongwe** (Blessing Thandi Shongwe) is a National Working Committee (NWC) Member of PWMSA, an NEC Member of the ANC Women’s League, and MEC for Culture, Sport and Recreation in Mpumalanga. She previously served as Speaker and Chief Whip of the Mpumalanga Provincial Legislature and as a Member of Parliament.",
   },
   {
-    patterns: [/contact|reach|phone|call|email|whatsapp|sophia|koko/i],
+    patterns: [/sophia|sikhosana|hlonipha|innovizt|communications officer/i],
     answer:
-      "You can reach PWMSA through:\n\n📞 **061 942 0421**\n📞 **+27 79 554 4302**\n📧 **info@pwmsa.org.za**\n💬 WhatsApp: +27 79 554 4302\n\nOur contact person is **Sophia Hlonipha Koko**.\nOffice hours: Mon–Fri 08:00–17:00 | Sat 09:00–13:00\n\nOr use our [contact form](/contact).",
+      "**Sophia Hlonipha Sikhosana** is the PWMSA National Working Committee (NWC) Communications Officer, Founder & CEO of Innovizt Content Solutions, publisher, communications strategist, and African Peace Magazine awardee.",
+  },
+  {
+    patterns: [/contact|reach|phone|call|email|whatsapp|koko/i],
+    answer:
+      "You can reach PWMSA through:\n\n📞 **061 942 0421**\n📞 **+27 79 554 4302**\n📧 **info@pwmsa.org.za**\n💬 WhatsApp: +27 79 554 4302\n\nOur contact person is **Sophia Hlonipha Sikhosana**.\nOffice hours: Mon–Fri 08:00–17:00 | Sat 09:00–13:00\n\nOr use our [contact form](/contact).",
   },
   {
     patterns: [/partner|sponsor|fund|donate|support|collaborate|invest/i],
