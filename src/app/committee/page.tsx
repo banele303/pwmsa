@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "National Leadership & Committee | PWMSA Governance",
     description:
-      "Profiles and portfolios of Angie Motshega, Zingiswa Losi, Me Getrude Mtsweni, Lulama Nare (CEO), Vuyiwe Hani, Syvia Maphala, and provincial structures.",
+      "Profiles and portfolios of Angie Motshega, Zingiswa Losi, Me Getrude Mtsweni, Lulama Nare (CEO), Vuyiwe Hani, Syvia Maphala, Thandie Shongwe, and provincial structures.",
     images: [
       {
         url: "https://pwmsa.org.za/wp-content/uploads/pwmsa-ab1.jpg",
@@ -126,6 +126,21 @@ const nationalLeaders = [
       "President of African People and Human Rights for Women (2018) & Deputy Chairperson of Moral Regeneration (2019).",
     ],
     experience: "Veteran of uMkhonto we Sizwe (joined 1984) and BOYCO (1980), with over four decades of civic, labour (SADTU), parliamentary (NCOP), and international women's rights leadership.",
+  },
+  {
+    name: "Thandie Shongwe",
+    role: "National Working Committee",
+    badge: "NWC Member & Governance",
+    image: "/images/committee/thandie-shongwe.jpg",
+    imagePosition: "object-top",
+    bio: "Blessing Thandie Shongwe is a seasoned legislator, former Speaker and MEC, educator, and National Working Committee (NWC) Member of PWMSA with over four decades of leadership across education, municipal governance, parliament, and provincial executive administration.\n\nHer public service career began as an educator, Head of Department, and Deputy Principal (1982–2000) before serving as Councillor and MMC for Community Services at Ehlanzeni District Municipality (2000–2006) and Member of Parliament in the National Assembly (2008–2009). In the Mpumalanga Provincial Legislature, she served with distinction as Deputy Chief Whip (2009–2010), Chief Whip (2010–2014), and Speaker of the Legislature (2014–2017), followed by executive appointments as MEC for Culture, Sport and Recreation (2017–2019; 2020–present) and MEC for Social Development (2019–2020).\n\nA dedicated gender activist since her student and SADTU union leadership days in the 1980s, she has served as Board Director of Malibongwe in Mpumalanga, Regional Secretary of the ANC Women's League in Ehlanzeni, long-standing ANC & ANCWL PEC Member, and currently serves as an NEC Member of the ANC Women's League (2023 to date).",
+    responsibilities: [
+      "National Working Committee (NWC) Member of PWMSA and NEC Member of the ANC Women’s League (ANCWL), designing and championing women's empowerment programmes.",
+      "MEC for Culture, Sport and Recreation (2017–2019; 2020–present) & former MEC for Social Development (2019–2020) in Mpumalanga Province.",
+      "Former Speaker (2014–2017) & Chief Whip (2010–2014) of the Mpumalanga Provincial Legislature, and former Member of Parliament in the National Assembly.",
+      "Former Malibongwe Board Director, Ehlanzeni MMC for Community Services, and veteran SADTU & student leader.",
+    ],
+    experience: "BA Degree & Higher Education Diplomas (Vista University), Further Diploma in Educational Management, and Postgraduate Certificate & Advanced Diploma in Public Governance and Public Leadership (Wits University).",
   },
 ];
 
