@@ -58,63 +58,63 @@ const provincialDesks = [
     location: "Johannesburg Central & Soweto Hub",
     coordinator: "Coordinator Mopipone",
     phone: "+27 79 554 4302",
-    email: "gauteng@pwmsa.org.za",
+    email: "communications@pwmsa.org.za",
   },
   {
     province: "Free State",
     location: "Bloemfontein Founding Secretariat, Mangaung",
     coordinator: "Provincial Executive Desk",
     phone: "061 942 0421",
-    email: "freestate@pwmsa.org.za",
+    email: "communications@pwmsa.org.za",
   },
   {
     province: "Mpumalanga",
     location: "Nelspruit (Mbombela) & Ehlanzeni Hub",
     coordinator: "WNC Enterprise Desk",
     phone: "+27 79 554 4302",
-    email: "mpumalanga@pwmsa.org.za",
+    email: "communications@pwmsa.org.za",
   },
   {
     province: "KwaZulu-Natal",
     location: "Durban Central & Pietermaritzburg",
     coordinator: "KZN Provincial Working Desk",
     phone: "061 942 0421",
-    email: "kzn@pwmsa.org.za",
+    email: "communications@pwmsa.org.za",
   },
   {
     province: "Western Cape",
     location: "Cape Town Metro & Mitchells Plain",
     coordinator: "WC Regional Secretariat",
     phone: "+27 79 554 4302",
-    email: "westerncape@pwmsa.org.za",
+    email: "communications@pwmsa.org.za",
   },
   {
     province: "Eastern Cape",
     location: "Gqeberha & East London",
     coordinator: "EC Working Committee",
     phone: "061 942 0421",
-    email: "easterncape@pwmsa.org.za",
+    email: "communications@pwmsa.org.za",
   },
   {
     province: "Limpopo",
     location: "Polokwane & Capricorn District",
     coordinator: "Limpopo Provincial Desk",
     phone: "+27 79 554 4302",
-    email: "limpopo@pwmsa.org.za",
+    email: "communications@pwmsa.org.za",
   },
   {
     province: "North West",
     location: "Mahikeng & Bojanala District",
     coordinator: "NW Provincial Desk",
     phone: "061 942 0421",
-    email: "northwest@pwmsa.org.za",
+    email: "communications@pwmsa.org.za",
   },
   {
     province: "Northern Cape",
     location: "Kimberley & Frances Baard",
     coordinator: "NC Regional Office",
     phone: "+27 79 554 4302",
-    email: "northerncape@pwmsa.org.za",
+    email: "communications@pwmsa.org.za",
   },
 ];
 
@@ -133,7 +133,7 @@ const faqs = [
   },
   {
     q: "How can my organisation invite a PWMSA leader to speak?",
-    a: "Official speaking requests for National Convenors or the CEO should be sent via email to info@pwmsa.org.za with the subject line 'Speaking Engagement Request', noting the date, audience, and agenda topics.",
+    a: "Official speaking requests for National Convenors or the CEO should be sent via email to communications@pwmsa.org.za with the subject line 'Speaking Engagement Request', noting the date, audience, and agenda topics.",
   },
 ];
 
@@ -197,7 +197,7 @@ export default function ContactPage() {
                   National Contact Desk
                 </h2>
                 <p className="text-gray-600 text-sm mt-2 leading-relaxed">
-                  Our designated national liaison officer is <strong className="text-[#715832]">Sophia Hlonipha Koko</strong>. You can reach our central office through any of the verified channels below.
+                  Our designated national communications officer is <strong className="text-[#715832]">Sophia Hlonipha Sikhosana</strong>. You can reach our central office through any of the verified channels below.
                 </p>
               </div>
 
@@ -209,8 +209,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <div className="text-xs text-gray-500 uppercase font-bold">Contact Person</div>
-                    <div className="text-base font-bold text-gray-900">Sophia Hlonipha Koko</div>
-                    <div className="text-xs text-[#715832]">National Administrative Desk</div>
+                    <div className="text-base font-bold text-gray-900">Sophia Hlonipha Sikhosana</div>
+                    <div className="text-xs text-[#715832]">NWC | Communications Officer</div>
                   </div>
                 </div>
 
@@ -233,10 +233,10 @@ export default function ContactPage() {
                   <div>
                     <div className="text-xs text-gray-500 uppercase font-bold">Official Email</div>
                     <a
-                      href="mailto:info@pwmsa.org.za"
+                      href="mailto:communications@pwmsa.org.za"
                       className="text-base font-bold text-[#715832] hover:underline"
                     >
-                      info@pwmsa.org.za
+                      communications@pwmsa.org.za
                     </a>
                     <div className="text-xs text-gray-500 mt-1">General inquiries, petitions, partnerships</div>
                   </div>

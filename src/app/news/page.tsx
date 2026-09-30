@@ -334,7 +334,7 @@ export default function NewsPage() {
               <div className="flex flex-wrap gap-6 pt-2 text-xs text-gray-300">
                 <div>
                   <strong className="text-white block">Media Inquiries:</strong>
-                  <span>media@pwmsa.org.za / info@pwmsa.org.za</span>
+                  <span>communications@pwmsa.org.za</span>
                 </div>
                 <div>
                   <strong className="text-white block">Press Officer Phone:</strong>
@@ -351,7 +351,7 @@ export default function NewsPage() {
                 Request Spokesperson Interview
               </Link>
               <a
-                href="mailto:info@pwmsa.org.za?subject=Media%20Inquiry%20PWMSA"
+                href="mailto:communications@pwmsa.org.za?subject=Media%20Inquiry%20PWMSA"
                 className="border border-white/30 text-white px-6 py-3.5 rounded-xl font-bold text-sm text-center hover:bg-white/10 transition-colors"
               >
                 Send Media Request

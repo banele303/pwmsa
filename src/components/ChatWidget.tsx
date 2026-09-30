@@ -93,7 +93,7 @@ const KB: Array<{ patterns: RegExp[]; answer: string }> = [
   {
     patterns: [/contact|reach|phone|call|email|whatsapp|koko/i],
     answer:
-      "You can reach PWMSA through:\n\n📞 **061 942 0421**\n📞 **+27 79 554 4302**\n📧 **info@pwmsa.org.za**\n💬 WhatsApp: +27 79 554 4302\n\nOur contact person is **Sophia Hlonipha Sikhosana**.\nOffice hours: Mon–Fri 08:00–17:00 | Sat 09:00–13:00\n\nOr use our [contact form](/contact).",
+      "You can reach PWMSA through:\n\n📞 **061 942 0421**\n📞 **+27 79 554 4302**\n📧 **communications@pwmsa.org.za**\n💬 WhatsApp: +27 79 554 4302\n\nOur contact person is **Sophia Hlonipha Sikhosana**.\nOffice hours: Mon–Fri 08:00–17:00 | Sat 09:00–13:00\n\nOr use our [contact form](/contact).",
   },
   {
     patterns: [/partner|sponsor|fund|donate|support|collaborate|invest/i],
@@ -118,7 +118,7 @@ const KB: Array<{ patterns: RegExp[]; answer: string }> = [
   {
     patterns: [/volunteer|join|member|membership|involved|help/i],
     answer:
-      "We'd love to have you involved! Here's how:\n\n• **Volunteer** for our campaigns and community events\n• **Become a member** through your local provincial structure\n• **Partner** as an organisation or company\n• **Donate** to support our programmes\n• **Spread the word** on social media\n\nContact us at [info@pwmsa.org.za](mailto:info@pwmsa.org.za) or [get in touch](/contact).",
+      "We'd love to have you involved! Here's how:\n\n• **Volunteer** for our campaigns and community events\n• **Become a member** through your local provincial structure\n• **Partner** as an organisation or company\n• **Donate** to support our programmes\n• **Spread the word** on social media\n\nContact us at [communications@pwmsa.org.za](mailto:communications@pwmsa.org.za) or [get in touch](/contact).",
   },
   {
     patterns: [/mandate|mission|vision|purpose|goal|objective/i],
@@ -152,7 +152,7 @@ function getBotAnswer(input: string): string {
       return entry.answer;
     }
   }
-  return "I don't have specific information on that, but I'd love to help!\n\nYou can reach our team directly:\n📞 061 942 0421\n📧 info@pwmsa.org.za\n\nOr ask me about our **pillars**, **campaigns**, **leadership**, **contact details**, or how to **partner with PWMSA**.";
+  return "I don't have specific information on that, but I'd love to help!\n\nYou can reach our team directly:\n📞 061 942 0421\n📧 communications@pwmsa.org.za\n\nOr ask me about our **pillars**, **campaigns**, **leadership**, **contact details**, or how to **partner with PWMSA**.";
 }
 
 // ─── Types ────────────────────────────────────────────────────────────────────

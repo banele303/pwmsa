@@ -95,10 +95,10 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <Mail size={16} className="text-[#e8ce52] mt-0.5 shrink-0" />
                 <a
-                  href="mailto:info@pwmsa.org.za"
+                  href="mailto:communications@pwmsa.org.za"
                   className="text-gray-400 hover:text-[#e8ce52] text-sm transition-colors"
                 >
-                  info@pwmsa.org.za
+                  communications@pwmsa.org.za
                 </a>
               </li>
               <li className="flex items-start gap-3">

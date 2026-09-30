@@ -37,9 +37,9 @@ This policy applies without exception to all natural persons and juristic entiti
 In accordance with Sections 55 and 56 of POPIA, PWMSA has registered an Information Officer with the Information Regulator of South Africa. All statutory notices, data access requests, or regulatory queries must be directed to:
 
 • Designated Information Officer: Office of the Chief Executive Officer / National Administrative Desk
-• Attention: Sophia Hlonipha Koko / ALulama Nare
+• Attention: Sophia Hlonipha Sikhosana / Lulama Nare
 • Physical Address: PWMSA National Secretariat, Republic of South Africa
-• Electronic Mail: info@pwmsa.org.za / popia@pwmsa.org.za
+• Electronic Mail: communications@pwmsa.org.za
 • Telephone: 061 942 0421 / +27 79 554 4302`,
   },
   {
@@ -186,7 +186,7 @@ export default function PrivacyPolicyPage() {
             </span>
           </div>
           <div>
-            Registered Information Officer: <span className="underline">info@pwmsa.org.za</span>
+            Registered Information Officer: <span className="underline">communications@pwmsa.org.za</span>
           </div>
         </div>
       </section>
@@ -221,8 +221,8 @@ export default function PrivacyPolicyPage() {
               To request access, correction, or destruction of your personal information held by the Progressive Women&apos;s Movement of South Africa, please submit a formal written request to our Information Officer.
             </p>
             <div className="pt-2 text-xs text-gray-300 space-y-1">
-              <div><strong>Information Officer:</strong> Sophia Hlonipha Koko / Office of the CEO</div>
-              <div><strong>Email:</strong> info@pwmsa.org.za / popia@pwmsa.org.za</div>
+              <div><strong>Information Officer:</strong> Sophia Hlonipha Sikhosana / Office of the CEO</div>
+              <div><strong>Email:</strong> communications@pwmsa.org.za</div>
               <div><strong>Hotline:</strong> 061 942 0421 / +27 79 554 4302</div>
             </div>
           </div>

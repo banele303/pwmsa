@@ -541,9 +541,6 @@ export default function AboutPage() {
               Our 10 National Mandates
             </h2>
             <div className="w-16 h-1 bg-[#e8ce52] rounded-full mx-auto" />
-            <p className="text-gray-300 text-base sm:text-lg leading-relaxed pt-2">
-              Reaffirmed during the Special Alliance Conference, these ten foundational directives form our operational covenant with the women of South Africa.
-            </p>
           </div>
 
           {/* 10 Mandates: Numbered Dual-Column Architectural Dossier Grid (NO ICONS) */}
