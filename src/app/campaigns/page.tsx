@@ -68,7 +68,7 @@ const campaignsDetailed = [
     date: "July 2026 / Ongoing Monitoring",
     status: "Active Tracking",
     statusColor: "bg-red-100 text-red-800 border-red-300",
-    image: "https://pwmsa.org.za/wp-content/uploads/pwmsa-ab1.jpg",
+    image: "/images/campaigns/soweto-gbvf-march.jpg",
     problemStatement:
       "A surge in horrific sexual violence cases—including the assault of young girls by individuals in positions of religious and community trust—revealed catastrophic delays in SAPS dockets, missing evidence, and insensitive victim handling.",
     ourAction:
@@ -246,6 +246,7 @@ export default function CampaignsPage() {
                   src={c.image}
                   alt={c.title}
                   fill
+                  unoptimized
                   className="object-cover group-hover:scale-105 transition-transform duration-700"
                   sizes="(max-width: 1024px) 100vw, 40vw"
                 />

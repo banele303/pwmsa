@@ -78,7 +78,7 @@ const articlesCollection = [
     date: "14 July 2026",
     readTime: "3 min read",
     author: "Gauteng Provincial Desk",
-    image: "https://pwmsa.org.za/wp-content/uploads/pwmsa-ab1.jpg",
+    image: "/images/campaigns/soweto-gbvf-march.jpg",
     featured: false,
   },
   {
