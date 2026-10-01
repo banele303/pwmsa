@@ -259,8 +259,8 @@ export default function CampaignsPage() {
               className="bg-white rounded-3xl overflow-hidden shadow-xl border border-amber-200/70 grid lg:grid-cols-12 gap-0 group"
             >
               {/* Visual Banner (5 cols) */}
-              <div className="lg:col-span-5 bg-[#fcfaf5] p-5 sm:p-6 lg:p-8 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-amber-200/70">
-                <div className="relative w-full h-44 sm:h-48 lg:h-52 rounded-2xl overflow-hidden shadow-md border border-amber-200/80">
+              <div className="lg:col-span-5 bg-[#fcfaf5] p-8 lg:p-12 flex flex-col justify-start border-b lg:border-b-0 lg:border-r border-amber-200/70">
+                <div className="relative w-full h-64 sm:h-72 lg:h-[360px] rounded-2xl overflow-hidden shadow-md border border-amber-200/80">
                   <Image
                     src={c.image}
                     alt={c.title}

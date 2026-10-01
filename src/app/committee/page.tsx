@@ -304,7 +304,7 @@ export default function CommitteePage() {
               >
                 {/* Photo Column (4 cols) */}
                 <div className="lg:col-span-4 bg-gradient-to-b from-[#fdfbf7] to-[#f6f0e4] p-6 sm:p-8 flex flex-col items-center justify-center border-b lg:border-b-0 lg:border-r border-amber-200/70">
-                  <div className="relative w-40 sm:w-44 h-48 sm:h-52 rounded-2xl overflow-hidden shadow-lg border-2 border-amber-300/80 bg-white">
+                  <div className="relative w-48 sm:w-56 aspect-[3/4] rounded-2xl overflow-hidden shadow-lg border-2 border-amber-300/80 bg-white">
                     <Image
                       src={leader.image}
                       alt={leader.name}
@@ -312,7 +312,7 @@ export default function CommitteePage() {
                       unoptimized
                       priority={i < 3}
                       className={`object-cover ${leader.imagePosition || "object-top"} group-hover:scale-105 transition-transform duration-500`}
-                      sizes="(max-width: 640px) 160px, 176px"
+                      sizes="(max-width: 640px) 192px, 224px"
                     />
                   </div>
 

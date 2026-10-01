@@ -189,8 +189,8 @@ export default function NewsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-3xl overflow-hidden shadow-xl border border-amber-200/80 grid lg:grid-cols-12 gap-0">
             {/* Featured Image (7 cols) */}
-            <div className="lg:col-span-7 bg-[#fcfaf5] p-5 sm:p-6 lg:p-8 flex items-center border-b lg:border-b-0 lg:border-r border-amber-200/70">
-              <div className="relative w-full h-56 sm:h-64 lg:h-72 rounded-2xl overflow-hidden shadow-md">
+            <div className="lg:col-span-7 bg-[#fcfaf5] p-8 lg:p-12 flex items-start border-b lg:border-b-0 lg:border-r border-amber-200/70">
+              <div className="relative w-full h-64 sm:h-72 lg:h-80 rounded-2xl overflow-hidden shadow-md">
                 <Image
                   src={featured.image}
                   alt={featured.title}
