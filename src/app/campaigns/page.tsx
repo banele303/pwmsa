@@ -128,14 +128,14 @@ const campaignsDetailed = [
     problemStatement:
       "Despite progressive constitutional rhetoric, women remain under-represented in municipal mayoralties, parliamentary budget appropriations for gender violence remain chronically inadequate, and national legislation often lacks enforceable accountability benchmarks.",
     ourAction:
-      "PWMSA CEO ALulama Nare and national convenors presented the PWMSA Declaration Report at the 2026 Women's Parliament in the Northern Cape. The report laid out unambiguous legislative demands for enforceable gender parity quotas, ring-fenced municipal GBVF prevention budgets, and mandatory quarterly reporting on gender transformation.",
+      "PWMSA CEO Lulama Nare and national convenors presented the PWMSA Declaration Report at the 2026 Women's Parliament in the Northern Cape. The report laid out unambiguous legislative demands for enforceable gender parity quotas, ring-fenced municipal GBVF prevention budgets, and mandatory quarterly reporting on gender transformation.",
     keyOutcomes: [
       "Declaration Report formally adopted into the parliamentary review record.",
       "Established permanent consultative channels between PWMSA and legislative portfolio committees.",
       "Secured commitments for cross-party gender budgeting workshops in 2027.",
       "Elevated provincial grassroots women's testimonies directly to cabinet ministers.",
     ],
-    coordinator: "ALulama Nare (CEO)",
+    coordinator: "Lulama Nare (CEO)",
   },
   {
     id: "youth-representation",

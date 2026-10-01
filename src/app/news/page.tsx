@@ -53,9 +53,9 @@ const articlesCollection = [
   },
   {
     slug: "womens-parliament-northern-cape",
-    title: "Women's Parliament 2026: CEO ALulama Nare Delivers Landmark Declaration Report",
+    title: "Women's Parliament 2026: CEO Lulama Nare Delivers Landmark Declaration Report",
     excerpt:
-      "Addressing lawmakers and delegates in Kimberley, PWMSA CEO ALulama Nare tabled the 2026 Declaration Report, requiring provincial governments to establish statutory accountability metrics for 50/50 gender parity across all public sector appointments and procurement spend.",
+      "Addressing lawmakers and delegates in Kimberley, PWMSA CEO Lulama Nare tabled the 2026 Declaration Report, requiring provincial governments to establish statutory accountability metrics for 50/50 gender parity across all public sector appointments and procurement spend.",
     fullContent:
       "The Declaration Report, produced after six months of provincial consultations across South Africa's rural and urban districts, highlights persistent implementation deficits in existing gender legislation. The CEO emphasized that while South Africa's legal framework is praised internationally, working-class women continue to bear the brunt of unmonitored austerity and patriarchal violence.",
     category: "Parliamentary Report",
