@@ -320,7 +320,7 @@ export default function PillarsPage() {
               >
                 {/* Left Visual & Metrics (5 cols) */}
                 <div className="lg:col-span-5 w-full space-y-6">
-                  <div className="relative rounded-2xl overflow-hidden aspect-[4/3] shadow-lg border border-amber-100">
+                  <div className="relative rounded-2xl overflow-hidden h-52 sm:h-60 shadow-lg border border-amber-100">
                     <Image
                       src={p.bannerImage}
                       alt={p.title}

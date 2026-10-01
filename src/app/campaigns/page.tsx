@@ -259,32 +259,34 @@ export default function CampaignsPage() {
               className="bg-white rounded-3xl overflow-hidden shadow-xl border border-amber-200/70 grid lg:grid-cols-12 gap-0 group"
             >
               {/* Visual Banner (5 cols) */}
-              <div className="lg:col-span-5 relative min-h-[340px] lg:min-h-full">
-                <Image
-                  src={c.image}
-                  alt={c.title}
-                  fill
-                  unoptimized
-                  className="object-cover group-hover:scale-105 transition-transform duration-700"
-                  sizes="(max-width: 1024px) 100vw, 40vw"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                <div className="absolute top-4 left-4">
-                  <span className={`text-xs font-black uppercase px-3 py-1 rounded-full border ${c.statusColor}`}>
-                    {c.status}
-                  </span>
-                </div>
-                <div className="absolute bottom-6 left-6 right-6 text-white space-y-2">
-                  <div className="text-xs font-bold text-[#e8ce52] uppercase tracking-wider">
-                    {c.category}
+              <div className="lg:col-span-5 bg-[#fcfaf5] p-5 sm:p-6 lg:p-8 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-amber-200/70">
+                <div className="relative w-full h-44 sm:h-48 lg:h-52 rounded-2xl overflow-hidden shadow-md border border-amber-200/80">
+                  <Image
+                    src={c.image}
+                    alt={c.title}
+                    fill
+                    unoptimized
+                    className="object-cover group-hover:scale-105 transition-transform duration-700"
+                    sizes="(max-width: 1024px) 100vw, 40vw"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+                  <div className="absolute top-3 left-3">
+                    <span className={`text-[11px] font-black uppercase px-2.5 py-1 rounded-full border ${c.statusColor}`}>
+                      {c.status}
+                    </span>
                   </div>
-                  <div className="flex items-center gap-2 text-xs text-gray-300">
-                    <MapPin size={14} className="text-[#e8ce52]" />
-                    <span>{c.location}</span>
-                  </div>
-                  <div className="flex items-center gap-2 text-xs text-gray-300">
-                    <Calendar size={14} className="text-[#e8ce52]" />
-                    <span>{c.date}</span>
+                  <div className="absolute bottom-4 left-4 right-4 text-white space-y-1">
+                    <div className="text-xs font-bold text-[#e8ce52] uppercase tracking-wider">
+                      {c.category}
+                    </div>
+                    <div className="flex items-center gap-2 text-xs text-gray-300">
+                      <MapPin size={13} className="text-[#e8ce52] shrink-0" />
+                      <span className="truncate">{c.location}</span>
+                    </div>
+                    <div className="flex items-center gap-2 text-xs text-gray-300">
+                      <Calendar size={13} className="text-[#e8ce52] shrink-0" />
+                      <span>{c.date}</span>
+                    </div>
                   </div>
                 </div>
               </div>
