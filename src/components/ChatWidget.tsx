@@ -48,7 +48,7 @@ const KB: Array<{ patterns: RegExp[]; answer: string }> = [
   {
     patterns: [/committee|member|leadership|nwc|national working|convenor|ceo/i],
     answer:
-      "PWMSA's **National Working Committee (NWC)** includes:\n\n👩 **Angie Motshega** — National Convenor\n👩 **Zingiswa Losi** — National Convenor\n👩 **Me Getrude Mtsweni** — National Working Committee\n👩 **Lulama Nare** — NWC & Chief Executive Officer\n👩 **Vuyiwe Hani** — National Working Committee\n👩 **Sylvia Maphala** — National Working Committee\n👩 **Thandie Shongwe** — National Working Committee\n👩 **Sophia Hlonipha Sikhosana** — NWC | Communications Officer\n\nLearn more at [/committee](/committee).",
+      "PWMSA's **National Working Committee** includes:\n\n👩 **Angie Motshega** — National Convenor\n👩 **Zingiswa Losi** — National Convenor\n👩 **Me Getrude Mtsweni** — National Working Committee\n👩 **Lulama Nare** — Chief Executive Officer\n👩 **Vuyiwe Hani** — National Working Committee\n👩 **Sylvia Maphala** — National Working Committee\n👩 **Thandie Shongwe** — National Working Committee\n👩 **Sophia Hlonipha Sikhosana** — Communications Officer\n\nLearn more at [/committee](/committee).",
   },
   {
     patterns: [/angie|motshega/i],
@@ -73,22 +73,22 @@ const KB: Array<{ patterns: RegExp[]; answer: string }> = [
   {
     patterns: [/vuyiwe|vuyelwa|hani|newto/i],
     answer:
-      "**Vuyiwe Hani** is a National Working Committee (NWC) Member of PWMSA, an NEC Member of the ANC Women’s League (ANCWL), and PR Councillor & Leader of the Opposition at the Cape Winelands District Municipality. She founded New Women Today (NEWTO) and holds qualifications in Governance, Public Leadership, and Transitional Justice.",
+      "**Vuyiwe Hani** is a National Working Committee Member of PWMSA, an NEC Member of the ANC Women’s League (ANCWL), and PR Councillor & Leader of the Opposition at the Cape Winelands District Municipality. She founded New Women Today (NEWTO) and holds qualifications in Governance, Public Leadership, and Transitional Justice.",
   },
   {
     patterns: [/syvia|sylvia|maphala|sanco/i],
     answer:
-      "**Sylvia Maphala** is a National Working Committee (NWC) Member of PWMSA (2025 to date) and veteran of uMkhonto we Sizwe (joined 1984) and BOYCO (1980). She also serves as SANCO 2nd Deputy General Secretary, MKLWV PEC Member, and previously served as ANC NCOP Advisor (2014–2019) and PWMSA Sub-committee Chairperson (2017–2020).",
+      "**Sylvia Maphala** is a National Working Committee Member of PWMSA (2025 to date) and veteran of uMkhonto we Sizwe (joined 1984) and BOYCO (1980). She also serves as SANCO 2nd Deputy General Secretary, MKLWV PEC Member, and previously served as ANC NCOP Advisor (2014–2019) and PWMSA Sub-committee Chairperson (2017–2020).",
   },
   {
     patterns: [/thandie|thandi|shongwe|blessing/i],
     answer:
-      "**Thandie Shongwe** (Blessing Thandi Shongwe) is a National Working Committee (NWC) Member of PWMSA, an NEC Member of the ANC Women’s League, and MEC for Culture, Sport and Recreation in Mpumalanga. She previously served as Speaker and Chief Whip of the Mpumalanga Provincial Legislature and as a Member of Parliament.",
+      "**Thandie Shongwe** (Blessing Thandi Shongwe) is a National Working Committee Member of PWMSA, an NEC Member of the ANC Women’s League, and MEC for Culture, Sport and Recreation in Mpumalanga. She previously served as Speaker and Chief Whip of the Mpumalanga Provincial Legislature and as a Member of Parliament.",
   },
   {
     patterns: [/sophia|sikhosana|hlonipha|innovizt|communications officer/i],
     answer:
-      "**Sophia Hlonipha Sikhosana** is the PWMSA National Working Committee (NWC) Communications Officer, Founder & CEO of Innovizt Content Solutions, publisher, communications strategist, and African Peace Magazine awardee.",
+      "**Sophia Hlonipha Sikhosana** is the PWMSA National Working Committee Communications Officer, Founder & CEO of Innovizt Content Solutions, publisher, communications strategist, and African Peace Magazine awardee.",
   },
   {
     patterns: [/contact|reach|phone|call|email|whatsapp|koko/i],

@@ -27,7 +27,7 @@ export const metadata: Metadata = {
       "Grassroots advocacy, direct action, and policy transformation campaigns led by the Progressive Women's Movement of South Africa.",
     images: [
       {
-        url: "https://pwmsa.org.za/wp-content/uploads/20250130_145419-768x576.jpg",
+        url: "/new-images/river cleaning/20250718_113043.jpg",
         width: 768,
         height: 576,
         alt: "PWMSA Environmental Clean-up Campaign",
@@ -46,7 +46,13 @@ const campaignsDetailed = [
     date: "Annual & Ongoing Action 2025 – 2026",
     status: "Active & Expanding",
     statusColor: "bg-emerald-100 text-emerald-800 border-emerald-300",
-    image: "https://pwmsa.org.za/wp-content/uploads/20250130_145419-768x576.jpg",
+    image: "/new-images/river cleaning/20250718_113043.jpg",
+    gallery: [
+      "/new-images/river cleaning/20250718_114224.jpg",
+      "/new-images/river cleaning/20250718_114113.jpg",
+      "/new-images/river cleaning/20250718_114217.jpg",
+      "/new-images/river cleaning/20250718_114233.jpg",
+    ],
     problemStatement:
       "The Jukskei River, flowing through Alexandra township, has historically suffered from illegal municipal dumping, industrial effluent, and neglected sewage infrastructure, placing young children and informal households at catastrophic disease risk.",
     ourAction:
@@ -68,7 +74,7 @@ const campaignsDetailed = [
     date: "July 2026 / Ongoing Monitoring",
     status: "Active Tracking",
     statusColor: "bg-red-100 text-red-800 border-red-300",
-    image: "/images/campaigns/soweto-gbvf-march.jpg",
+    image: "/new-images/martch/20241129_112425.jpg",
     problemStatement:
       "A surge in horrific sexual violence cases—including the assault of young girls by individuals in positions of religious and community trust—revealed catastrophic delays in SAPS dockets, missing evidence, and insensitive victim handling.",
     ourAction:
@@ -83,25 +89,31 @@ const campaignsDetailed = [
   },
   {
     id: "mpumalanga-enterprise",
-    title: "WNC Women's Enterprise & Cooperative Incubator",
+    title: "Women's Enterprise & Cooperative Incubator",
     lead: "Economic Freedom Through Skills, Funding & Market Linkages",
     category: "Economic Transformation",
     location: "Ehlanzeni & Gert Sibande Districts, Mpumalanga",
     date: "June 2026 – Ongoing",
     status: "Active Implementation",
     statusColor: "bg-amber-100 text-amber-800 border-amber-300",
-    image: "https://pwmsa.org.za/wp-content/uploads/20250718_071213-768x576.jpg",
+    image: "/new-images/Enterprice/20250130_144518.jpg",
+    gallery: [
+      "/new-images/Enterprice/20250130_145358.jpg",
+      "/new-images/Enterprice/20250130_145402.jpg",
+      "/new-images/Enterprice/20250314_140457.jpg",
+      "/new-images/Enterprice/20250314_140919.jpg",
+    ],
     problemStatement:
       "Rural and peri-urban women face severe structural exclusion from formal commercial procurement, banking credit, and high-value supply chains, relegating them to vulnerable, low-yield informal survivalist trading.",
     ourAction:
-      "The PWMSA National Working Committee (WNC) launched an enterprise incubator equipping 200 women-led enterprises with company registration, SARS compliance, financial recordkeeping, digital POS equipment, and direct supply contracts with local agricultural and retail institutions.",
+      "The PWMSA National Working Committee launched an enterprise incubator equipping 200 women-led enterprises with company registration, SARS compliance, financial recordkeeping, digital POS equipment, and direct supply contracts with local agricultural and retail institutions.",
     keyOutcomes: [
       "200 female micro-entrepreneurs enrolled and certified in business governance.",
       "Facilitated R750,000 in seed equipment and micro-grant disbursements.",
       "Formed 6 regional agricultural and textile production cooperatives.",
       "Connected local producers with provincial government nutrition procurement schemes.",
     ],
-    coordinator: "PWMSA National Working Committee (NWC)",
+    coordinator: "PWMSA National Working Committee",
   },
   {
     id: "womens-parliament",
@@ -123,7 +135,7 @@ const campaignsDetailed = [
       "Secured commitments for cross-party gender budgeting workshops in 2027.",
       "Elevated provincial grassroots women's testimonies directly to cabinet ministers.",
     ],
-    coordinator: "ALulama Nare (CEO & NWC)",
+    coordinator: "ALulama Nare (CEO)",
   },
   {
     id: "youth-representation",
@@ -134,7 +146,13 @@ const campaignsDetailed = [
     date: "July 2026 – Ongoing",
     status: "Active Cohort",
     statusColor: "bg-blue-100 text-blue-800 border-blue-300",
-    image: "https://pwmsa.org.za/wp-content/uploads/20241012_164953-Copy-Copy-768x576.jpg",
+    image: "/new-images/youth-development/20250627_095900.jpg",
+    gallery: [
+      "/new-images/youth-development/20250627_095822.jpg",
+      "/new-images/youth-development/20250627_095847.jpg",
+      "/new-images/youth-development/20250627_100037.jpg",
+      "/new-images/youth-development/20250627_100115.jpg",
+    ],
     problemStatement:
       "Young women navigate harrowing rates of youth unemployment (exceeding 60%), campus-based sexual harassment, lack of digital access, and systemic exclusion from senior organisational decision-making structures.",
     ourAction:
@@ -156,7 +174,7 @@ const campaignsDetailed = [
     date: "April 2026 – Active Action",
     status: "Active Legal Taskforce",
     statusColor: "bg-rose-100 text-rose-800 border-rose-300",
-    image: "https://pwmsa.org.za/wp-content/uploads/pwmsa-ab2.jpg",
+    image: "/images/campaigns/clergy-justice.jpg",
     problemStatement:
       "Perpetrators of sexual abuse and rape in religious and faith-based institutions frequently exploit spiritual authority, victim-blaming, and internal cover-ups to evade criminal prosecution, leaving child victims traumatised and unsupported.",
     ourAction:
@@ -310,6 +328,27 @@ export default function CampaignsPage() {
                       ))}
                     </ul>
                   </div>
+
+                  {/* Optional Action Gallery */}
+                  {"gallery" in c && c.gallery && (
+                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-1">
+                      {c.gallery.map((photo, pIdx) => (
+                        <div
+                          key={pIdx}
+                          className="relative aspect-[4/3] rounded-xl overflow-hidden border border-amber-200/80 shadow-sm"
+                        >
+                          <Image
+                            src={photo}
+                            alt={`${c.title} photo ${pIdx + 1}`}
+                            fill
+                            unoptimized
+                            className="object-cover hover:scale-105 transition-transform duration-500"
+                            sizes="(max-width: 640px) 50vw, 20vw"
+                          />
+                        </div>
+                      ))}
+                    </div>
+                  )}
                 </div>
 
                 {/* Footer Metadata & CTA */}

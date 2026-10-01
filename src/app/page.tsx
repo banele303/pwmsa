@@ -185,7 +185,7 @@ const timelineEvents = [
   {
     year: "2024",
     title: "Enterprise & Economic Incubator",
-    desc: "Launch of the WNC Women's Economic Empowerment Fund and enterprise training hubs in Mpumalanga and North West.",
+    desc: "Launch of the Women's Economic Empowerment Fund and enterprise training hubs in Mpumalanga and North West.",
   },
   {
     year: "2026",
@@ -502,14 +502,24 @@ export default function AboutPage() {
             <h4 className="text-center text-xs font-black uppercase tracking-widest text-[#715832] mb-6">
               Foundational Principles of the Movement
             </h4>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid sm:grid-cols-2 gap-6">
               {[
-                { title: "Non-Partisan Coalition", desc: "Uniting women across all political, cultural, and socio-economic spheres." },
-                { title: "Constitutional Equality", desc: "Grounded in Section 9 of the Bill of Rights guaranteeing total parity." },
-                { title: "Grassroots Presence", desc: "Organised branch committees operating across all 9 provinces." },
-                { title: "Zero Tolerance for GBVF", desc: "Demanding systemic judicial accountability and comprehensive victim care." },
-                { title: "Economic Self-Determination", desc: "Dismantling structural poverty through enterprise and land tenure." },
-                { title: "Intergenerational Leadership", desc: "Mentoring young women to lead in policy, governance, and technology." },
+                {
+                  title: "Substantive Empowerment Over Symbolic Representation",
+                  desc: "True transformation requires shifting power relations so women gain real agency, opportunities, and resources to shape their societal positions rather than settling for mere formal representation.",
+                },
+                {
+                  title: "Dismantling the Intersecting \"Triple Oppression\"",
+                  desc: "Gender inequality cannot be solved in isolation; strategies must simultaneously target the combined impacts of class exploitation, racial discrimination, and patriarchal domination.",
+                },
+                {
+                  title: "Economic Autonomy as the Anchor of Liberation",
+                  desc: "The advance of women's rights depends on access to tangible economic opportunities—such as direct procurement quotas, land ownership, and resource access—to break financial dependency and poverty traps.",
+                },
+                {
+                  title: "Grassroots Community Ownership and Inclusivity",
+                  desc: "A progressive movement must reject top-down approaches, centering itself on the lived struggles of working-class and marginalized women across diverse backgrounds and identities.",
+                },
               ].map((item, idx) => (
                 <div key={idx} className="flex items-start gap-3 p-3 rounded-xl hover:bg-amber-50/50 transition-colors">
                   <CheckCircle2 size={18} className="text-[#715832] shrink-0 mt-0.5" />
@@ -546,6 +556,9 @@ export default function AboutPage() {
               Our 10 National Mandates
             </h2>
             <div className="w-16 h-1 bg-[#e8ce52] rounded-full mx-auto" />
+            <p className="text-gray-300 text-base sm:text-lg leading-relaxed pt-2">
+              The core mission of the PWMSA—as reaffirmed and updated by alliance partners (ANCWL, COSATU, SACP, and SANCO)—is to serve as an inclusive, broad-based platform to unite women, challenge patriarchy, eliminate gender-based discrimination, and achieve full gender equality and emancipation.
+            </p>
           </div>
 
           {/* 10 Mandates: Numbered Dual-Column Architectural Dossier Grid (NO ICONS) */}

@@ -85,12 +85,12 @@ const nationalLeaders = [
   {
     name: "Me Getrude Mtsweni",
     role: "National Working Committee",
-    badge: "NWC Portfolio Lead",
+    badge: "Portfolio Lead",
     image: "/images/committee/getrude-mtsweni.jpg",
     imagePosition: "object-top",
-    bio: "Me Getrude Mtsweni is a pivotal member of the National Working Committee, leading community mobilisation and enterprise development portfolios. She has been instrumental in conceptualising and executing the WNC Women's Enterprise Incubator in Mpumalanga and building rapid response GBV networks.",
+    bio: "Me Getrude Mtsweni is a pivotal member of the National Working Committee, leading community mobilisation and enterprise development portfolios. She has been instrumental in conceptualising and executing the Women's Enterprise Incubator in Mpumalanga and building rapid response GBV networks.",
     responsibilities: [
-      "National portfolio lead for the WNC Women's Economic Empowerment Fund.",
+      "National portfolio lead for the Women's Economic Empowerment Fund.",
       "Coordinating provincial field operations and township community dialogues.",
       "Interfacing with provincial economic development agencies and micro-finance lenders.",
       "Direct oversight of cooperative establishment in agriculture and agro-processing.",
@@ -100,12 +100,12 @@ const nationalLeaders = [
   {
     name: "Vuyiwe Hani",
     role: "National Working Committee",
-    badge: "NWC Member & Governance",
+    badge: "Committee Member & Governance",
     image: "/images/committee/vuyiwe-hani.jpg",
     imagePosition: "object-top",
-    bio: "Vuyiwe Hani is an experienced public representative, governance professional and community development practitioner with extensive experience in public leadership, stakeholder engagement, women empowerment and community development.\n\nShe currently serves as a PR Councillor and Leader of the Opposition at the Cape Winelands District Municipality, where she contributes to governance, oversight, public accountability and community advocacy. She is a Member of the National Executive Committee (NEC) of the ANC Women’s League (ANCWL) and serves as a National Working Committee (NWC) Member of PWMSA, contributing to women's leadership, empowerment and organisational development.\n\nHer professional experience spans government, education, social development and community empowerment, including leadership and coordination of programmes focused on education, youth development, skills development and community advancement. Vuyiwe has a longstanding commitment to women's empowerment and gender equality. During her university years, she founded New Women Today (NEWTO), an organisation focused on women's empowerment, gender equality, safety and advocacy.",
+    bio: "Vuyiwe Hani is an experienced public representative, governance professional and community development practitioner with extensive experience in public leadership, stakeholder engagement, women empowerment and community development.\n\nShe currently serves as a PR Councillor and Leader of the Opposition at the Cape Winelands District Municipality, where she contributes to governance, oversight, public accountability and community advocacy. She is a Member of the National Executive Committee (NEC) of the ANC Women’s League (ANCWL) and serves as a National Working Committee Member of PWMSA, contributing to women's leadership, empowerment and organisational development.\n\nHer professional experience spans government, education, social development and community empowerment, including leadership and coordination of programmes focused on education, youth development, skills development and community advancement. Vuyiwe has a longstanding commitment to women's empowerment and gender equality. During her university years, she founded New Women Today (NEWTO), an organisation focused on women's empowerment, gender equality, safety and advocacy.",
     responsibilities: [
-      "National Working Committee (NWC) Member of PWMSA contributing to women's leadership, empowerment and organisational development.",
+      "National Working Committee Member of PWMSA contributing to women's leadership, empowerment and organisational development.",
       "PR Councillor and Leader of the Opposition at the Cape Winelands District Municipality (governance, oversight & public accountability).",
       "Member of the National Executive Committee (NEC) of the ANC Women’s League (ANCWL).",
       "Founder of New Women Today (NEWTO) and coordinator of programmes in education, youth development, skills development and community advancement.",
@@ -117,10 +117,10 @@ const nationalLeaders = [
     role: "National Working Committee Member",
     badge: "National Working Committee",
     image: "/images/committee/syvia-maphala.jpg",
-    imagePosition: "object-[65%_25%]",
-    bio: "Sylvia Maphala is a lifelong liberation activist and National Working Committee (NWC) Member of PWMSA (2025 to date), having previously served as PWMSA Sub-committee Chairperson (2017 – 2020).\n\nCapricorn & Mopani Regions: An activist from a young age, she joined BOYCO (Botlokwa Youth Congress) in 1980 and served as SRC President at Kgarahara High School (1988). She joined uMkhonto we Sizwe (MK) in 1984 in Trichardsdal, and later served as College SRC Female Convener (1990), Giyani South CIVIC Sub-regional Chairperson (1993), SADTU Giyani South Branch Chairperson (1993), ANC Khashane Branch Chairperson (1993), ANCYL Phalaborwa Sub-region Deputy Chairperson (1997), and ANC Dumitri Branch Secretary and ANCWL Chairperson (1997).\n\nProvincial, National & International Leadership: At the provincial level, she served as Deputy Chairperson of Moral Regeneration (2019) and MKLWV PEC Member (2022 to date). Nationally, she served as ANC NCOP Advisor (2014 – 2019), SANCO National Women Desk Convener, and SANCO 2nd Deputy General Secretary (2023 to date). Internationally, she served as President of African People and Human Rights for Women (2018) and President of China Investigation Bureau (2019).",
+    imagePosition: "object-top",
+    bio: "Sylvia Maphala is a lifelong liberation activist and National Working Committee Member of PWMSA (2025 to date), having previously served as PWMSA Sub-committee Chairperson (2017 – 2020).\n\nCapricorn & Mopani Regions: An activist from a young age, she joined BOYCO (Botlokwa Youth Congress) in 1980 and served as SRC President at Kgarahara High School (1988). She joined uMkhonto we Sizwe (MK) in 1984 in Trichardsdal, and later served as College SRC Female Convener (1990), Giyani South CIVIC Sub-regional Chairperson (1993), SADTU Giyani South Branch Chairperson (1993), ANC Khashane Branch Chairperson (1993), ANCYL Phalaborwa Sub-region Deputy Chairperson (1997), and ANC Dumitri Branch Secretary and ANCWL Chairperson (1997).\n\nProvincial, National & International Leadership: At the provincial level, she served as Deputy Chairperson of Moral Regeneration (2019) and MKLWV PEC Member (2022 to date). Nationally, she served as ANC NCOP Advisor (2014 – 2019), SANCO National Women Desk Convener, and SANCO 2nd Deputy General Secretary (2023 to date). Internationally, she served as President of African People and Human Rights for Women (2018) and President of China Investigation Bureau (2019).",
     responsibilities: [
-      "PWMSA National Working Committee (NWC) Member (2025 to date) & former PWMSA Sub-committee Chairperson (2017 – 2020).",
+      "PWMSA National Working Committee Member (2025 to date) & former PWMSA Sub-committee Chairperson (2017 – 2020).",
       "SANCO 2nd Deputy General Secretary (2023 to date) & SANCO National Women Desk Convener.",
       "MKLWV Provincial Executive Committee (PEC) Member (2022 to date) & former ANC NCOP Advisor (2014 – 2019).",
       "President of African People and Human Rights for Women (2018) & Deputy Chairperson of Moral Regeneration (2019).",
@@ -130,12 +130,12 @@ const nationalLeaders = [
   {
     name: "Thandie Shongwe",
     role: "National Working Committee",
-    badge: "NWC Member & Governance",
+    badge: "Committee Member & Governance",
     image: "/images/committee/thandie-shongwe.jpg",
     imagePosition: "object-top",
-    bio: "Blessing Thandie Shongwe is a seasoned legislator, former Speaker and MEC, educator, and National Working Committee (NWC) Member of PWMSA with over four decades of leadership across education, municipal governance, parliament, and provincial executive administration.\n\nHer public service career began as an educator, Head of Department, and Deputy Principal (1982–2000) before serving as Councillor and MMC for Community Services at Ehlanzeni District Municipality (2000–2006) and Member of Parliament in the National Assembly (2008–2009). In the Mpumalanga Provincial Legislature, she served with distinction as Deputy Chief Whip (2009–2010), Chief Whip (2010–2014), and Speaker of the Legislature (2014–2017), followed by executive appointments as MEC for Culture, Sport and Recreation (2017–2019; 2020–present) and MEC for Social Development (2019–2020).\n\nA dedicated gender activist since her student and SADTU union leadership days in the 1980s, she has served as Board Director of Malibongwe in Mpumalanga, Regional Secretary of the ANC Women's League in Ehlanzeni, long-standing ANC & ANCWL PEC Member, and currently serves as an NEC Member of the ANC Women's League (2023 to date).",
+    bio: "Blessing Thandie Shongwe is a seasoned legislator, former Speaker and MEC, educator, and National Working Committee Member of PWMSA with over four decades of leadership across education, municipal governance, parliament, and provincial executive administration.\n\nHer public service career began as an educator, Head of Department, and Deputy Principal (1982–2000) before serving as Councillor and MMC for Community Services at Ehlanzeni District Municipality (2000–2006) and Member of Parliament in the National Assembly (2008–2009). In the Mpumalanga Provincial Legislature, she served with distinction as Deputy Chief Whip (2009–2010), Chief Whip (2010–2014), and Speaker of the Legislature (2014–2017), followed by executive appointments as MEC for Culture, Sport and Recreation (2017–2019; 2020–present) and MEC for Social Development (2019–2020).\n\nA dedicated gender activist since her student and SADTU union leadership days in the 1980s, she has served as Board Director of Malibongwe in Mpumalanga, Regional Secretary of the ANC Women's League in Ehlanzeni, long-standing ANC & ANCWL PEC Member, and currently serves as an NEC Member of the ANC Women's League (2023 to date).",
     responsibilities: [
-      "National Working Committee (NWC) Member of PWMSA and NEC Member of the ANC Women’s League (ANCWL), designing and championing women's empowerment programmes.",
+      "National Working Committee Member of PWMSA and NEC Member of the ANC Women’s League (ANCWL), designing and championing women's empowerment programmes.",
       "MEC for Culture, Sport and Recreation (2017–2019; 2020–present) & former MEC for Social Development (2019–2020) in Mpumalanga Province.",
       "Former Speaker (2014–2017) & Chief Whip (2010–2014) of the Mpumalanga Provincial Legislature, and former Member of Parliament in the National Assembly.",
       "Former Malibongwe Board Director, Ehlanzeni MMC for Community Services, and veteran SADTU & student leader.",
@@ -145,12 +145,12 @@ const nationalLeaders = [
   {
     name: "Sophia Hlonipha Sikhosana",
     role: "PWMSA National Working Committee | Communications Officer",
-    badge: "NWC & Communications",
+    badge: "Communications Officer",
     image: "/images/committee/sophia-hlonipha-sikhosana.jpg",
     imagePosition: "object-top",
     bio: "Sophia Hlonipha Sikhosana is an entrepreneur, communications strategist, publisher, writer, editor, life coach, inspirational speaker and social impact advocate. She is the Founder and CEO of Innovizt Content Solutions, where she works across publishing, content development, communications, project management, brand strategy and business solutions.\n\nWith extensive experience in publishing and storytelling, Sophia has worked with authors, organisations and entrepreneurs, helping transform ideas into books, campaigns, brands and professional communication platforms. She is passionate about using communication and storytelling to amplify voices, particularly those of women and communities.\n\nAs a PWMSA National Working Committee Communications Officer, Sophia contributes her expertise in strategic communication, media, content creation, advocacy and public engagement to strengthen the organisation’s voice and advance its work in women’s empowerment, gender equality and the fight against GBVF.\n\nShe is also a recognised inspirational speaker and African Peace Magazine awardee, with a strong passion for resilience, women’s leadership, empowerment and turning ideas into meaningful action.",
     responsibilities: [
-      "PWMSA National Working Committee (NWC) Communications Officer leading strategic communication, media relations, content creation, advocacy and public engagement.",
+      "PWMSA National Working Committee Communications Officer leading strategic communication, media relations, content creation, advocacy and public engagement.",
       "Amplifying PWMSA's national voice in advancing women’s empowerment, gender equality and the eradication of Gender-Based Violence and Femicide (GBVF).",
       "Founder and CEO of Innovizt Content Solutions, overseeing publishing, content development, project management, brand strategy and business solutions.",
       "Transforming ideas into campaigns, books, brands and communication platforms that elevate the voices of women and communities.",
@@ -172,7 +172,7 @@ const provincialDirectory = [
     coordinator: "Provincial Executive Secretariat",
     hub: "Nelspruit & Ehlanzeni",
     email: "communications@pwmsa.org.za",
-    focus: "WNC Enterprise Incubator, agricultural cooperatives, rural land rights.",
+    focus: "Women's Enterprise Incubator, agricultural cooperatives, rural land rights.",
   },
   {
     province: "KwaZulu-Natal",
@@ -233,7 +233,7 @@ const subCommittees = [
   },
   {
     title: "Economic Transformation & Enterprise Development",
-    desc: "Manages the WNC Enterprise Fund, cooperative training, and monitoring of 40% preferential procurement.",
+    desc: "Manages the Women's Enterprise Fund, cooperative training, and monitoring of 40% preferential procurement.",
     icon: Building,
   },
   {
@@ -289,7 +289,7 @@ export default function CommitteePage() {
               Executive Governance
             </span>
             <h2 className="text-3xl sm:text-5xl font-black text-[#1a1a1a]">
-              National Working Committee (NWC)
+              National Working Committee
             </h2>
             <p className="text-gray-600">
               The National Working Committee is tasked with executing the resolutions of the National Assembly, governing programmatic operations, and safeguarding the movement&apos;s constitutional integrity.

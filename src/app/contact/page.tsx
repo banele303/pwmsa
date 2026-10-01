@@ -70,7 +70,7 @@ const provincialDesks = [
   {
     province: "Mpumalanga",
     location: "Nelspruit (Mbombela) & Ehlanzeni Hub",
-    coordinator: "WNC Enterprise Desk",
+    coordinator: "PWMSA Enterprise Desk",
     phone: "+27 79 554 4302",
     email: "communications@pwmsa.org.za",
   },
@@ -210,7 +210,7 @@ export default function ContactPage() {
                   <div>
                     <div className="text-xs text-gray-500 uppercase font-bold">Contact Person</div>
                     <div className="text-base font-bold text-gray-900">Sophia Hlonipha Sikhosana</div>
-                    <div className="text-xs text-[#715832]">NWC | Communications Officer</div>
+                    <div className="text-xs text-[#715832]">Communications Officer</div>
                   </div>
                 </div>
 

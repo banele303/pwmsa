@@ -26,13 +26,13 @@ export interface GalleryItem {
 const galleryData: GalleryItem[] = [
   {
     id: "ab1",
-    src: "https://pwmsa.org.za/wp-content/uploads/pwmsa-ab1.jpg",
+    src: "/new-images/martch/20241129_112425.jpg",
     title: "National Solidarity & Mass Mobilisation",
     subtitle:
-      "PWMSA delegates assembling in national regalia to demand immediate judicial accountability and gender parity.",
+      "PWMSA delegates marching in national regalia to demand immediate judicial accountability and an end to GBV and femicide.",
     category: "marches",
-    location: "Bloemfontein, Free State",
-    date: "Historic Founding & Annual Assemblies",
+    location: "Gauteng Provincial March",
+    date: "Historic & Annual Mobilisations",
     span: "md:col-span-2 md:row-span-2",
   },
   {
@@ -59,40 +59,96 @@ const galleryData: GalleryItem[] = [
   },
   {
     id: "enterprise",
-    src: "https://pwmsa.org.za/wp-content/uploads/20250718_071213-768x576.jpg",
-    title: "WNC Enterprise Incubator Rollout",
+    src: "/new-images/Enterprice/20250130_144518.jpg",
+    title: "Women's Enterprise Incubator Rollout",
     subtitle:
       "Graduation of female entrepreneurs in compliance, financial management, and cooperative supply chains.",
     category: "enterprise",
     location: "Nelspruit, Mpumalanga",
-    date: "June 2026",
+    date: "January 2025",
     span: "md:col-span-1 md:row-span-1",
   },
   {
+    id: "enterprise-training",
+    src: "/new-images/Enterprice/20250130_145358.jpg",
+    title: "Business Governance & Compliance Training",
+    subtitle:
+      "Women entrepreneurs receiving hands-on training in SARS compliance, financial recordkeeping, and cooperative formation.",
+    category: "enterprise",
+    location: "Mpumalanga Enterprise Hub",
+    date: "January 2025",
+    span: "md:col-span-1 md:row-span-1",
+  },
+  {
+    id: "enterprise-coop",
+    src: "/new-images/Enterprice/20250130_145415.jpg",
+    title: "Cooperative Supply Chain Development",
+    subtitle:
+      "Women-led cooperatives building direct supply contracts with local agricultural and retail institutions.",
+    category: "enterprise",
+    location: "Gert Sibande District, Mpumalanga",
+    date: "January 2025",
+    span: "md:col-span-1 md:row-span-1",
+  },
+  {
+    id: "enterprise-march",
+    src: "/new-images/Enterprice/20250314_140457.jpg",
+    title: "Enterprise & Economic Empowerment March",
+    subtitle:
+      "PWMSA members marching to demand preferential procurement and access to development finance for women-owned businesses.",
+    category: "enterprise",
+    location: "Mpumalanga Province",
+    date: "March 2025",
+    span: "md:col-span-2 md:row-span-1",
+  },
+  {
+    id: "enterprise-march-2",
+    src: "/new-images/Enterprice/20250314_140919.jpg",
+    title: "Women's Economic Justice Mobilisation",
+    subtitle:
+      "Mobilising women across the province around enterprise rights, equal pay, and supply chain inclusion.",
+    category: "enterprise",
+    location: "Mpumalanga Province",
+    date: "March 2025",
+    span: "md:col-span-1 md:row-span-1",
+  },
+
+  {
     id: "youth",
-    src: "https://pwmsa.org.za/wp-content/uploads/20241012_164953-Copy-Copy-768x576.jpg",
+    src: "/new-images/youth-development/20250627_095900.jpg",
     title: "Next-Gen Youth Representation Chapter",
     subtitle:
       "Ms Phumelela Zigoxo leading mentorship and civic education workshops for university and TVET delegates.",
     category: "grassroots",
     location: "Johannesburg & Soweto",
-    date: "July 2026",
+    date: "June 2025 – July 2026",
+    span: "md:col-span-1 md:row-span-1",
+  },
+  {
+    id: "youth-summit",
+    src: "/new-images/youth-development/20250627_095841.jpg",
+    title: "Youth Development & Career Empowerment Dialogue",
+    subtitle:
+      "Young leaders and students gathered under the PWMSA 20th Year Anniversary banner for higher education and skills mentorship.",
+    category: "grassroots",
+    location: "Gauteng Youth Chapter",
+    date: "June 2025 – 2026",
     span: "md:col-span-1 md:row-span-1",
   },
   {
     id: "gathering",
-    src: "https://pwmsa.org.za/wp-content/uploads/20241012_132501.jpg",
-    title: "Grassroots Imbizo & Survivor Dialogues",
+    src: "/new-images/martch/20241129_112430.jpg",
+    title: "Women's Solidarity March & Mobilisation",
     subtitle:
-      "Community women gathering to establish neighborhood rapid response task forces against gender violence.",
-    category: "grassroots",
-    location: "Soweto, Gauteng",
-    date: "October 2024",
+      "Community women marching together in PWMSA regalia to establish neighborhood rapid response task forces against gender violence.",
+    category: "marches",
+    location: "Soweto & Johannesburg, Gauteng",
+    date: "November 2024",
     span: "md:col-span-2 md:row-span-1",
   },
   {
     id: "jukskei",
-    src: "https://pwmsa.org.za/wp-content/uploads/20250130_145419-768x576.jpg",
+    src: "/new-images/river cleaning/20250718_113043.jpg",
     title: "Alexander Jukskei Eco-Justice Action",
     subtitle:
       "Over 350 volunteers cleaning critical waterways and educating residents on environmental health rights.",
@@ -102,20 +158,31 @@ const galleryData: GalleryItem[] = [
     span: "md:col-span-1 md:row-span-1",
   },
   {
+    id: "jukskei-rehab",
+    src: "/new-images/river cleaning/20250718_114224.jpg",
+    title: "Jukskei Riverbank Rehabilitation & Inspection",
+    subtitle:
+      "Community eco-guards and township volunteers restoring the Jukskei River corridor in Alexandra.",
+    category: "grassroots",
+    location: "Alexandra Township, Gauteng",
+    date: "July 2025 – 2026",
+    span: "md:col-span-1 md:row-span-1",
+  },
+  {
     id: "ab4",
-    src: "https://pwmsa.org.za/wp-content/uploads/pwmsa-ab4.jpg",
+    src: "/new-images/martch/20241129_111805.jpg",
     title: "Constitutional Advocacy & Rights March",
     subtitle:
-      "Standing resolute against discriminatory customary and workplace practices across South Africa.",
+      "Standing resolute with the PWMSA banner against gender-based violence and discriminatory practices across South Africa.",
     category: "marches",
-    location: "Durban Central, KZN",
+    location: "Gauteng Provincial March",
     date: "Provincial Solidarity Day",
     span: "md:col-span-1 md:row-span-1",
   },
 ];
 
 const categories = [
-  { id: "all", label: "All Archives (8)" },
+  { id: "all", label: "All Archives (14)" },
   { id: "marches", label: "Marches & Mobilisation" },
   { id: "governance", label: "Governance & Parliament" },
   { id: "enterprise", label: "Enterprise Incubators" },

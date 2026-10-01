@@ -78,7 +78,7 @@ const articlesCollection = [
     date: "14 July 2026",
     readTime: "3 min read",
     author: "Gauteng Provincial Desk",
-    image: "/images/campaigns/soweto-gbvf-march.jpg",
+    image: "/new-images/martch/20241129_112434.jpg",
     featured: false,
   },
   {
@@ -93,21 +93,21 @@ const articlesCollection = [
     date: "02 July 2026",
     readTime: "4 min read",
     author: "PWMSA Youth Desk",
-    image: "https://pwmsa.org.za/wp-content/uploads/20241012_164953-Copy-Copy-768x576.jpg",
+    image: "/new-images/youth-development/20250627_095847.jpg",
     featured: false,
   },
   {
     slug: "mpumalanga-enterprise-launch",
-    title: "PWMSA WNC Enterprise Hub Launches in Mpumalanga: 200 Women Entrepreneurs Enrolled",
+    title: "PWMSA Enterprise Hub Launches in Mpumalanga: 200 Women Entrepreneurs Enrolled",
     excerpt:
       "The PWMSA National Working Committee has activated its flagship economic incubator in Mpumalanga, providing accredited business management training, SARS tax assistance, and supply-chain linkages for women-owned businesses.",
     fullContent:
-      "During the launch in Ehlanzeni District, NWC member Getrude Mtswene underscored that economic sovereignty is the most potent antidote to domestic vulnerability and gender-based violence. The programme has already facilitated seed equipment grants for 15 agro-processing cooperatives.",
+      "During the launch in Ehlanzeni District, National Working Committee member Getrude Mtswene underscored that economic sovereignty is the most potent antidote to domestic vulnerability and gender-based violence. The programme has already facilitated seed equipment grants for 15 agro-processing cooperatives.",
     category: "Economic Transformation",
     categoryColor: "bg-emerald-100 text-emerald-800 border-emerald-200",
     date: "19 June 2026",
     readTime: "4 min read",
-    author: "WNC Enterprise Desk",
+    author: "PWMSA Enterprise Desk",
     image: "https://pwmsa.org.za/wp-content/uploads/20250718_071213-768x576.jpg",
     featured: false,
   },
@@ -123,7 +123,7 @@ const articlesCollection = [
     date: "28 May 2026",
     readTime: "3 min read",
     author: "Alexandra Community Desk",
-    image: "https://pwmsa.org.za/wp-content/uploads/20250130_145419-768x576.jpg",
+    image: "/new-images/river cleaning/20250718_114224.jpg",
     featured: false,
   },
   {
@@ -138,7 +138,7 @@ const articlesCollection = [
     date: "12 April 2026",
     readTime: "4 min read",
     author: "Legal & Human Rights Desk",
-    image: "https://pwmsa.org.za/wp-content/uploads/pwmsa-ab2.jpg",
+    image: "/images/campaigns/clergy-justice.jpg",
     featured: false,
   },
   {
