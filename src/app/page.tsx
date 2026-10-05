@@ -557,7 +557,7 @@ export default function AboutPage() {
             </h2>
             <div className="w-16 h-1 bg-[#e8ce52] rounded-full mx-auto" />
             <p className="text-gray-300 text-base sm:text-lg leading-relaxed pt-2">
-              The core mission of the PWMSA—as reaffirmed and updated by alliance partners (ANCWL, COSATU, SACP, and SANCO)—is to serve as an inclusive, broad-based platform to unite women, challenge patriarchy, eliminate gender-based discrimination, and achieve full gender equality and emancipation.
+              The core mission of the PWMSA is to serve as an inclusive, broad-based platform to unite women, challenge patriarchy, eliminate gender-based discrimination, and achieve full gender equality and emancipation.
             </p>
           </div>
 
