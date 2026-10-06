@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "National Leadership & Committee | PWMSA Governance",
     description:
-      "Profiles and portfolios of Angie Motshega, Zingiswa Losi, Me Getrude Mtsweni, Lulama Nare (CEO), Vuyiwe Hani, Syvia Maphala, Thandie Shongwe, Sophia Hlonipha Sikhosana, and provincial structures.",
+      "Profiles and portfolios of Angie Motshega, Zingiswa Losi, Me Getrude Mtsweni, Ms. Lulama Nare, Vuyiwe Hani, Syvia Maphala, Thandie Shongwe, Sophia Hlonipha Sikhosana, and provincial structures.",
     images: [
       {
         url: "https://pwmsa.org.za/wp-content/uploads/pwmsa-ab1.jpg",
@@ -68,19 +68,19 @@ const nationalLeaders = [
     experience: "Prominent veteran of labour federation leadership, worker rights advocacy, and civic movement building.",
   },
   {
-    name: "Lulama Nare",
-    role: "National Working Committee & Chief Executive Officer",
+    name: "Ms. Lulama Nare",
+    role: "National Working Committee",
     badge: "Executive & Administration",
     image: "/images/committee/lulama-nare.jpg",
     imagePosition: "object-top",
-    bio: "Chief administrative executive running daily operations, secretariat staff, and programmes.\n\nPresenting legislative petitions, such as the Women's Parliament Declaration Report.\n\nManagement of donor agreements, compliance, and B-BBEE corporate partnership conduits.\n\nOverseeing research outputs, policy monitoring, and legal intervention desks.",
+    bio: "Ms. Lulama Nare is an accomplished executive and constitutional leader with extensive experience in institutional leadership, governance, public-sector administration, gender mainstreaming and socio-economic development.\n\nHer leadership experience includes serving as a Chapter 9 Commissioner and executive leader, where she contributed to institutional strategy, high-integrity governance and systemic approaches to advancing gender equality and socio-economic inclusion. Her work reflects a strong commitment to strengthening institutions and creating sustainable pathways towards greater gender parity.\n\nMs. Nare brings extensive knowledge of public-sector financial management, the Public Finance Management Act (PFMA), audit readiness and organisational restructuring. Her experience in financial governance and operational oversight supports a disciplined approach to fiscal sustainability, compliance, accountability and organisational excellence.\n\nHer work also extends to grassroots economic development and stakeholder mobilisation, with experience in multi-stakeholder programmes, agricultural enterprise development and financial inclusion initiatives. Through these initiatives, she has contributed to economic empowerment and development opportunities for rural communities and women entrepreneurs across South Africa.\n\nWith a combination of executive leadership, governance expertise, financial management and grassroots development experience, Ms. Nare brings a strategic and practical perspective to advancing institutional transformation, women’s economic empowerment and sustainable socio-economic development.",
     responsibilities: [
-      "Executive administration and daily operational oversight of PWMSA secretariat and national programmes.",
-      "Tabling statutory legislative petitions, including the Women's Parliament Declaration Report.",
-      "Stewardship of donor agreements, financial compliance, and B-BBEE corporate partnership conduits.",
-      "Directing policy monitoring, research outputs, and national legal intervention desks.",
+      "Chief administrative executive running daily operations, secretariat staff, and programmes.",
+      "Presenting legislative petitions, such as the Women's Parliament Declaration Report.",
+      "Management of donor agreements, compliance, and B-BBEE corporate partnership conduits.",
+      "Overseeing research outputs, policy monitoring, and legal intervention desks.",
     ],
-    experience: "Experienced executive in institutional governance, gender-responsive budgeting, and human rights law.",
+    experience: "Former Chapter 9 Commissioner, executive leader in public-sector governance, PFMA financial management, and socio-economic development.",
   },
   {
     name: "Me Getrude Mtsweni",

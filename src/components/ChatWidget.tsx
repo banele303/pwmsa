@@ -48,7 +48,7 @@ const KB: Array<{ patterns: RegExp[]; answer: string }> = [
   {
     patterns: [/committee|member|leadership|nwc|national working|convenor|ceo/i],
     answer:
-      "PWMSA's **National Working Committee** includes:\n\n👩 **Angie Motshega** — National Convenor\n👩 **Zingiswa Losi** — National Convenor\n👩 **Me Getrude Mtsweni** — National Working Committee\n👩 **Lulama Nare** — Chief Executive Officer\n👩 **Vuyiwe Hani** — National Working Committee\n👩 **Sylvia Maphala** — National Working Committee\n👩 **Thandie Shongwe** — National Working Committee\n👩 **Sophia Hlonipha Sikhosana** — Communications Officer\n\nLearn more at [/committee](/committee).",
+      "PWMSA's **National Working Committee** includes:\n\n👩 **Angie Motshega** — National Convenor\n👩 **Zingiswa Losi** — National Convenor\n👩 **Me Getrude Mtsweni** — National Working Committee\n👩 **Ms. Lulama Nare** — National Working Committee\n👩 **Vuyiwe Hani** — National Working Committee\n👩 **Sylvia Maphala** — National Working Committee\n👩 **Thandie Shongwe** — National Working Committee\n👩 **Sophia Hlonipha Sikhosana** — Communications Officer\n\nLearn more at [/committee](/committee).",
   },
   {
     patterns: [/angie|motshega/i],
@@ -66,9 +66,9 @@ const KB: Array<{ patterns: RegExp[]; answer: string }> = [
       "**Me Getrude Mtsweni** is a member of the National Working Committee of PWMSA, leading grassroots community mobilisation and enterprise development portfolios.",
   },
   {
-    patterns: [/lulama|alulama|nare|ceo|chief executive/i],
+    patterns: [/lulama|alulama|nare/i],
     answer:
-      "**Lulama Nare** serves as both a National Working Committee member and the **Chief Executive Officer** of PWMSA. She provides strategic and operational leadership, overseeing all programmes, partnerships and organisational development.",
+      "**Ms. Lulama Nare** serves as a member of the **National Working Committee** of PWMSA. She provides strategic and operational leadership, overseeing programmes, governance, and institutional development.",
   },
   {
     patterns: [/vuyiwe|vuyelwa|hani|newto/i],
