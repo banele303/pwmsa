@@ -48,7 +48,7 @@ const KB: Array<{ patterns: RegExp[]; answer: string }> = [
   {
     patterns: [/committee|member|leadership|nwc|national working|convenor|ceo/i],
     answer:
-      "PWMSA's **National Working Committee** includes:\n\n👩 **Angie Motshega** — National Convenor\n👩 **Zingiswa Losi** — National Convenor\n👩 **Me Getrude Mtsweni** — National Working Committee\n👩 **Ms. Lulama Nare** — National Working Committee\n👩 **Vuyiwe Hani** — National Working Committee\n👩 **Sylvia Maphala** — National Working Committee\n👩 **Thandie Shongwe** — National Working Committee\n👩 **Sophia Hlonipha Sikhosana** — Communications Officer\n\nLearn more at [/committee](/committee).",
+      "PWMSA's **National Working Committee** includes:\n\n👩 **Angie Motshega** — National Convenor\n👩 **Zingiswa Losi** — National Convenor\n👩 **Me Getrude Mtsweni** — National Working Committee\n👩 **Ms. Lulama Nare** — National Working Committee\n👩 **Vuyiwe Hani** — National Working Committee\n👩 **Sylvia Maphala** — National Working Committee\n👩 **Thandie Shongwe** — National Working Committee\n👩 **Sophia Hlonipha Sikhosana** — Communications Officer\n👩 **Nel Bickermore** — National Working Committee\n\nLearn more at [/committee](/committee).",
   },
   {
     patterns: [/angie|motshega/i],
@@ -89,6 +89,11 @@ const KB: Array<{ patterns: RegExp[]; answer: string }> = [
     patterns: [/sophia|sikhosana|hlonipha|innovizt|communications officer/i],
     answer:
       "**Sophia Hlonipha Sikhosana** is the PWMSA National Working Committee Communications Officer, Founder & CEO of Innovizt Content Solutions, publisher, communications strategist, and African Peace Magazine awardee.",
+  },
+  {
+    patterns: [/nel|nell|bickermore|bickemore|ncvt/i],
+    answer:
+      "**Nel Bickermore** is a member of the PWMSA **National Working Committee** and a dedicated child and family advocate with the National Children and Violence Trust (NCVT). She leads community-based initiatives in psychosocial support, trauma management, and protection of vulnerable children, women, and families.",
   },
   {
     patterns: [/contact|reach|phone|call|email|whatsapp|koko/i],

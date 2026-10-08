@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "National Leadership & Committee | PWMSA Governance",
     description:
-      "Profiles and portfolios of Angie Motshega, Zingiswa Losi, Me Getrude Mtsweni, Ms. Lulama Nare, Vuyiwe Hani, Syvia Maphala, Thandie Shongwe, Sophia Hlonipha Sikhosana, and provincial structures.",
+      "Profiles and portfolios of Angie Motshega, Zingiswa Losi, Me Getrude Mtsweni, Ms. Lulama Nare, Vuyiwe Hani, Sylvia Maphala, Thandie Shongwe, Sophia Hlonipha Sikhosana, Nel Bickermore, and provincial structures.",
     images: [
       {
         url: "https://pwmsa.org.za/wp-content/uploads/pwmsa-ab1.jpg",
@@ -156,6 +156,21 @@ const nationalLeaders = [
       "Transforming ideas into campaigns, books, brands and communication platforms that elevate the voices of women and communities.",
     ],
     experience: "Founder & CEO of Innovizt Content Solutions, publisher, communications strategist, inspirational speaker, and African Peace Magazine Awardee.",
+  },
+  {
+    name: "Nel Bickermore",
+    role: "National Working Committee",
+    badge: "Social Welfare & Protection",
+    image: "",
+    imagePosition: "object-top",
+    bio: "Nell is a dedicated advocate for the protection, dignity and wellbeing of vulnerable children, women and families. Through her work with the National Children and Violence Trust (NCVT), a South African non-profit organisation established in 1995, she is committed to addressing the realities of child protection, gender-based violence, domestic violence and social vulnerability within communities.\n\nHer work is rooted in a community-centred approach that recognises that meaningful protection requires more than responding to violence after it occurs. It requires psychosocial support, access to rights and justice, community awareness, skills development and practical assistance that enables vulnerable individuals and families to rebuild their lives.\n\nThrough NCVT’s programmes, Nell contributes to initiatives that provide psychosocial support and counselling to survivors of violence and abuse, while supporting trauma management and emotional recovery. She is also involved in community-based initiatives that provide essential assistance, including food and care packages to shelters, crèches and homes supporting people with special needs.\n\nA strong advocate for awareness and the protection of rights, Nell supports community dialogues and educational campaigns that help communities understand their rights and responsibilities under legislation such as the Children’s Act and the Domestic Violence Act. She recognises the importance of equipping people with knowledge so that they can identify abuse, seek appropriate support and participate meaningfully in creating safer communities.\n\nHer commitment also extends to skills development and empowerment, particularly for vulnerable women and young people. Through education, life skills and community interventions, she believes in creating opportunities that can help individuals overcome cycles of poverty, violence and vulnerability.\n\nNell’s work reflects a deep commitment to building communities where children are protected, women are supported, survivors are treated with dignity, and vulnerable people have access to the resources and opportunities they need to live with greater safety and hope.\n\nThrough her contribution to NCVT, she continues to support the organisation’s broader vision of strengthening communities and advancing the protection of children, women and other vulnerable groups across South Africa.",
+    responsibilities: [
+      "Psychosocial support, trauma management, and counselling initiatives for survivors of violence and abuse.",
+      "Community dialogues and educational campaigns on rights under the Children’s Act and Domestic Violence Act.",
+      "Direct relief, essential assistance, and care packages to shelters, crèches, and special needs centres.",
+      "Skills development, education, and economic empowerment interventions for vulnerable women and youth.",
+    ],
+    experience: "National Children and Violence Trust (NCVT) advocate with decades of dedicated leadership in child protection, trauma recovery, and community social welfare.",
   },
 ];
 
@@ -305,15 +320,29 @@ export default function CommitteePage() {
                 {/* Photo Column (4 cols) */}
                 <div className="lg:col-span-4 bg-gradient-to-b from-[#fdfbf7] to-[#f6f0e4] p-6 sm:p-8 flex flex-col items-center justify-center border-b lg:border-b-0 lg:border-r border-amber-200/70">
                   <div className="relative w-48 sm:w-56 aspect-[3/4] rounded-2xl overflow-hidden shadow-lg border-2 border-amber-300/80 bg-white">
-                    <Image
-                      src={leader.image}
-                      alt={leader.name}
-                      fill
-                      unoptimized
-                      priority={i < 3}
-                      className={`object-cover ${leader.imagePosition || "object-top"} group-hover:scale-105 transition-transform duration-500`}
-                      sizes="(max-width: 640px) 192px, 224px"
-                    />
+                    {leader.image ? (
+                      <Image
+                        src={leader.image}
+                        alt={leader.name}
+                        fill
+                        unoptimized
+                        priority={i < 3}
+                        className={`object-cover ${leader.imagePosition || "object-top"} group-hover:scale-105 transition-transform duration-500`}
+                        sizes="(max-width: 640px) 192px, 224px"
+                      />
+                    ) : (
+                      <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-[#fcfaf5] to-[#f4ecd8] p-6 text-center select-none">
+                        <div className="w-20 h-20 rounded-full bg-amber-100/90 border-2 border-amber-300 flex items-center justify-center mb-3 shadow-inner">
+                          <Users size={36} className="text-[#715832]" />
+                        </div>
+                        <div className="text-[#715832] font-black text-xs uppercase tracking-wider">
+                          PWMSA
+                        </div>
+                        <div className="text-[11px] text-gray-500 mt-0.5 font-medium">
+                          National Working Committee
+                        </div>
+                      </div>
+                    )}
                   </div>
 
                   <div className="mt-4 text-center">
