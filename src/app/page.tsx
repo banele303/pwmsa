@@ -22,6 +22,7 @@ import {
   ArrowUpRight,
   TrendingUp,
 } from "lucide-react";
+import InteractiveGallery from "@/components/InteractiveGallery";
 
 export const metadata: Metadata = {
   title: "PWMSA | Progressive Women's Movement of South Africa",
@@ -668,6 +669,9 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      {/* ── PHOTO ARCHIVE & INTERACTIVE BENTO GALLERY ── */}
+      <InteractiveGallery />
 
       {/* ── 20-YEAR TIMELINE OF HISTORICAL IMPACT ── */}
       <section className="py-24 bg-white text-gray-900 border-t border-amber-100">
