@@ -31,6 +31,7 @@ import {
   Film,
   Tag,
 } from "lucide-react";
+import Newsletter2026Document from "@/components/Newsletter2026Document";
 
 export interface Article {
   slug: string;
@@ -485,13 +486,19 @@ export default function NewsClient() {
                   <span>National Working Committee &bull; October 2026</span>
                 </div>
 
-                <div className="flex items-center gap-3">
+                <div className="flex flex-wrap items-center gap-3">
                   <button
                     onClick={() => setActiveArticle(featured)}
                     className="inline-flex items-center gap-2 bg-[#715832] text-white hover:bg-[#4a3720] px-5 py-2.5 rounded-xl text-xs font-black shadow-md hover:shadow-lg transition-all cursor-pointer"
                   >
-                    <FileText size={14} /> Read Full 5-Page Update
+                    <FileText size={14} /> Open 5-Page Document Reader
                   </button>
+                  <Link
+                    href="/news/newsletter-2026"
+                    className="inline-flex items-center gap-1.5 text-xs font-bold text-[#715832] border border-[#715832]/50 hover:bg-amber-50 px-4 py-2.5 rounded-xl transition-colors"
+                  >
+                    Full View <ExternalLink size={13} />
+                  </Link>
                   <button
                     onClick={() => handleShare(featured)}
                     className="p-2.5 text-gray-600 hover:text-gray-900 border border-gray-300 rounded-xl hover:bg-gray-50 transition-colors cursor-pointer"
@@ -692,7 +699,7 @@ export default function NewsClient() {
           className="fixed inset-0 z-50 overflow-y-auto bg-black/70 backdrop-blur-sm flex items-center justify-center p-4 sm:p-6"
         >
           <div
-            className="bg-white rounded-3xl max-w-4xl w-full max-h-[92vh] flex flex-col shadow-2xl border border-amber-200 overflow-hidden animate-in fade-in zoom-in-95 duration-200"
+            className={`bg-white rounded-3xl ${activeArticle.isSpecialPublication ? "max-w-5xl" : "max-w-4xl"} w-full max-h-[92vh] flex flex-col shadow-2xl border border-amber-200 overflow-hidden animate-in fade-in zoom-in-95 duration-200`}
             onClick={(e) => e.stopPropagation()}
           >
             {/* Modal Top Header */}
@@ -734,402 +741,21 @@ export default function NewsClient() {
             </div>
 
             {/* Modal Scrollable Body */}
-            <div className="overflow-y-auto p-6 sm:p-10 space-y-8">
+            <div className="overflow-y-auto p-4 sm:p-8 space-y-6">
               {activeArticle.isSpecialPublication ? (
-                /* ── SPECIAL FULL DOCUMENT VIEW FOR THE 5-PAGE NEWSLETTER ── */
-                <div className="space-y-10">
-                  {/* Document Masthead */}
-                  <div className="text-center pb-8 border-b-2 border-amber-300 space-y-3">
-                    <div className="inline-flex items-center justify-center gap-3">
-                      <Image
-                        src="/logo.png"
-                        alt="PWMSA Logo"
-                        width={48}
-                        height={48}
-                        className="object-contain"
-                      />
-                      <span className="text-xs font-bold tracking-widest text-[#715832] uppercase">
-                        Women&apos;s Voices, Collective Action, Social Transformation
-                      </span>
-                    </div>
-
-                    <h1 className="text-2xl sm:text-4xl font-black text-gray-900 tracking-tight">
-                      PROGRESSIVE WOMEN&apos;S MOVEMENT OF SOUTH AFRICA
-                    </h1>
-
-                    <div className="inline-block bg-amber-100 text-amber-900 font-bold text-xs sm:text-sm px-4 py-1.5 rounded-full border border-amber-300">
-                      Communications, Advocacy &amp; Organisational Update &bull; Reporting Period: August – October 2026
-                    </div>
-
-                    <p className="text-xs text-gray-500 max-w-xl mx-auto pt-1">
-                      <strong>Prepared by:</strong> Communications Office <br />
-                      <strong>For:</strong> National Working Committee, National Leadership and Provincial Structures
-                    </p>
-                  </div>
-
-                  {/* Note from the CEO */}
-                  <div className="bg-[#fcfaf5] rounded-3xl p-6 sm:p-8 border border-amber-200 space-y-6">
-                    <div className="flex items-center gap-3 border-b border-amber-200 pb-4">
-                      <div className="w-2.5 h-6 bg-[#715832] rounded-full" />
-                      <h2 className="text-xl sm:text-2xl font-black text-gray-900">
-                        Note from the CEO
-                      </h2>
-                    </div>
-
-                    <div className="grid md:grid-cols-12 gap-6 items-start">
-                      <div className="md:col-span-4 flex flex-col items-center text-center space-y-3">
-                        <div className="relative w-32 h-32 rounded-2xl overflow-hidden shadow-lg border-2 border-amber-300">
-                          <Image
-                            src="/images/committee/lulama-nare.jpg"
-                            alt="Lulama Nare CEO PWMSA"
-                            fill
-                            className="object-cover"
-                          />
-                        </div>
-                        <div>
-                          <strong className="block text-sm font-black text-gray-900">
-                            Lulama Nare
-                          </strong>
-                          <span className="text-xs text-[#715832] font-semibold">
-                            CEO, PWMSA
-                          </span>
-                        </div>
-                      </div>
-
-                      <div className="md:col-span-8 space-y-4 text-xs sm:text-sm text-gray-700 leading-relaxed">
-                        <p>
-                          As the Progressive Women&apos;s Movement of South Africa (PWMSA) marks <strong>twenty years of organized struggle</strong> since our 2006 launch in Bloemfontein—and <strong>seventy years</strong> since the historic 1956 march on the Union Buildings—we are reminded that our fight for equality, dignity, and social justice remains as urgent as ever.
-                        </p>
-                        <p>
-                          This reporting period has been a pivotal time for our movement. Through critical engagements like the <strong>Women&apos;s Parliament in Kimberley</strong> and our ongoing advocacy with media, labour, and government stakeholders, we have continued to place gender justice, economic empowerment, and accountability at the forefront of the national agenda.
-                        </p>
-                        <p className="bg-amber-100/70 p-3 rounded-xl border-l-4 border-[#715832] font-medium text-gray-900">
-                          &ldquo;Today, the pass laws we resist are the realities of poverty, unemployment, and gender-based violence. We have firmly pressed the National Treasury to adequately fund the GBV disaster response, and we continue to demand that the protection of women&apos;s livelihoods remains central to every economic turnaround plan.&rdquo;
-                        </p>
-                        <p>
-                          Thank you to our provincial structures, national leadership, and 35+ multi-sectoral affiliate organizations for your unwavering dedication. Let us keep building a better world, one act at a time.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Section 2: Building a Better World & Movement at a Glance */}
-                  <div className="space-y-6">
-                    <div className="space-y-3">
-                      <span className="text-xs font-bold text-[#715832] uppercase tracking-wider block">
-                        Executive Summary
-                      </span>
-                      <h2 className="text-2xl font-black text-gray-900">
-                        Building a Better World, One Act at a Time
-                      </h2>
-                      <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
-                        The Progressive Women&apos;s Movement of South Africa (PWMSA) continues to champion women&apos;s emancipation, gender equality, social justice and economic transformation. As a national, multisectoral movement, PWMSA brings together women across sectors to advance a common agenda for equality, dignity and meaningful participation in the development of South Africa.
-                      </p>
-                      <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
-                        Established in Bloemfontein on 8 August 2006, the Movement draws strength from the legacy of women&apos;s collective resistance, particularly the historic Women&apos;s March of 9 August 1956. That legacy places a responsibility on contemporary women&apos;s organisations to address persistent inequalities and advocate for practical, measurable change.
-                      </p>
-                    </div>
-
-                    {/* Stats Grid */}
-                    <div className="bg-[#1a140e] text-white rounded-3xl p-6 sm:p-8 space-y-4">
-                      <h3 className="text-sm font-bold text-[#e8ce52] uppercase tracking-wider text-center">
-                        The Movement at a Glance
-                      </h3>
-                      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-2">
-                        <div className="bg-white/10 rounded-2xl p-4 text-center border border-white/5">
-                          <span className="block text-3xl sm:text-4xl font-black text-[#e8ce52]">20</span>
-                          <span className="text-xs text-gray-300 mt-1 block">Years of organised struggle since 2006 Bloemfontein launch</span>
-                        </div>
-                        <div className="bg-white/10 rounded-2xl p-4 text-center border border-white/5">
-                          <span className="block text-3xl sm:text-4xl font-black text-[#e8ce52]">70</span>
-                          <span className="text-xs text-gray-300 mt-1 block">Years since 20 000 women marched on Union Buildings</span>
-                        </div>
-                        <div className="bg-white/10 rounded-2xl p-4 text-center border border-white/5">
-                          <span className="block text-3xl sm:text-4xl font-black text-[#e8ce52]">35+</span>
-                          <span className="text-xs text-gray-300 mt-1 block">National multi-sectoral organisations united under one banner</span>
-                        </div>
-                        <div className="bg-white/10 rounded-2xl p-4 text-center border border-white/5">
-                          <span className="block text-3xl sm:text-4xl font-black text-[#e8ce52]">9</span>
-                          <span className="text-xs text-gray-300 mt-1 block">Provinces where the Movement is rebuilding its structures</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Section 3: Women's Month 2026: Milestone of Resistance */}
-                  <div className="space-y-6 bg-amber-50/60 rounded-3xl p-6 sm:p-8 border border-amber-200">
-                    <div className="space-y-2">
-                      <span className="text-xs font-bold text-[#715832] uppercase tracking-wider">
-                        Milestone of Resistance &amp; Organisation
-                      </span>
-                      <h2 className="text-xl sm:text-2xl font-black text-gray-900">
-                        &ldquo;Wathint&apos; abafazi, wathint&apos; imbokodo: seventy years of resistance, twenty years of organisation.&rdquo;
-                      </h2>
-                      <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
-                        August 2026 marked the most significant Women&apos;s Month in a generation, serving as a platform for the Movement to take stock, sharpen its demands, and put South African women back at the centre of public discourse.
-                      </p>
-                    </div>
-
-                    <div className="grid sm:grid-cols-2 gap-4 pt-2">
-                      <div className="bg-white p-5 rounded-2xl border border-amber-200 shadow-sm space-y-2">
-                        <div className="flex items-center justify-between">
-                          <span className="text-xs font-black text-[#715832]">8 August</span>
-                          <span className="text-[10px] font-bold bg-amber-100 text-amber-800 px-2 py-0.5 rounded-full">20th Anniversary</span>
-                        </div>
-                        <h4 className="font-bold text-sm text-gray-900">Mandate Recommitment</h4>
-                        <p className="text-xs text-gray-600 leading-relaxed">
-                          Recommitted affiliates to our original mandate—uniting women, deepening government partnerships, and fighting discrimination in every sphere.
-                        </p>
-                      </div>
-
-                      <div className="bg-white p-5 rounded-2xl border border-amber-200 shadow-sm space-y-2">
-                        <div className="flex items-center justify-between">
-                          <span className="text-xs font-black text-[#715832]">9 August</span>
-                          <span className="text-[10px] font-bold bg-amber-100 text-amber-800 px-2 py-0.5 rounded-full">National Women&apos;s Day</span>
-                        </div>
-                        <h4 className="font-bold text-sm text-gray-900">Honouring 1956 Icons</h4>
-                        <p className="text-xs text-gray-600 leading-relaxed">
-                          Honoured icons Lilian Ngoyi, Helen Joseph, Rahima Moosa, Sophia Williams-De Bruyn, and the 20,000 women of 1956, declaring that today&apos;s pass laws are poverty, unemployment, and violence.
-                        </p>
-                      </div>
-
-                      <div className="bg-white p-5 rounded-2xl border border-amber-200 shadow-sm space-y-2">
-                        <div className="flex items-center justify-between">
-                          <span className="text-xs font-black text-[#715832]">13–14 August</span>
-                          <span className="text-[10px] font-bold bg-purple-100 text-purple-800 px-2 py-0.5 rounded-full">Kimberley</span>
-                        </div>
-                        <h4 className="font-bold text-sm text-gray-900">Women&apos;s Parliament Declaration</h4>
-                        <p className="text-xs text-gray-600 leading-relaxed">
-                          CEO Lulama Nare presented the final declaration report, placing gender justice, economic empowerment, and accountability for the Women&apos;s Charter on the national agenda.
-                        </p>
-                      </div>
-
-                      <div className="bg-white p-5 rounded-2xl border border-amber-200 shadow-sm space-y-2">
-                        <div className="flex items-center justify-between">
-                          <span className="text-xs font-black text-[#715832]">August–October</span>
-                          <span className="text-[10px] font-bold bg-blue-100 text-blue-800 px-2 py-0.5 rounded-full">Grassroots</span>
-                        </div>
-                        <h4 className="font-bold text-sm text-gray-900">Provincial Dialogues</h4>
-                        <p className="text-xs text-gray-600 leading-relaxed">
-                          Convened community activations focusing on GBV, economic inclusion, and young women&apos;s rights, transforming Women&apos;s Month into a season of active organising and recruitment.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Section 4: Crisis Alert & Our Message */}
-                  <div className="border-l-4 border-red-600 bg-red-50 p-6 rounded-r-3xl space-y-3">
-                    <span className="text-xs font-black uppercase tracking-wider text-red-800 flex items-center gap-1.5">
-                      <ShieldAlert size={16} /> Urgent National Callout &bull; Ekurhuleni GBVF Crisis
+                <div className="space-y-4">
+                  <div className="flex items-center justify-between bg-amber-50 p-3 rounded-xl border border-amber-200">
+                    <span className="text-xs font-bold text-[#715832]">
+                      Official Document: 5-Page Newsletter (Aug–Oct 2026)
                     </span>
-                    <blockquote className="text-sm sm:text-base font-bold text-gray-900 italic">
-                      &ldquo;Eleven women&apos;s bodies found in Ekurhuleni since July. Eleven lives lost, families shattered, and a nation demanding answers.&rdquo;
-                    </blockquote>
-                    <p className="text-xs text-gray-700 leading-relaxed">
-                      <strong>Our Message This August:</strong> The women of 1956 refused to carry passes. The women of 2026 refuse to carry poverty, violence and exclusion.
-                    </p>
+                    <Link
+                      href="/news/newsletter-2026"
+                      className="text-xs font-bold text-[#715832] hover:underline flex items-center gap-1"
+                    >
+                      Open Full Page <ExternalLink size={12} />
+                    </Link>
                   </div>
-
-                  {/* Section 5: Stakeholder Engagements (August–October 2026) */}
-                  <div className="space-y-4">
-                    <div className="flex items-center justify-between">
-                      <div>
-                        <h3 className="text-xl font-black text-gray-900">
-                          Stakeholder Engagements &amp; Key Milestones
-                        </h3>
-                        <p className="text-xs text-gray-500">
-                          High-level dialogues and stakeholder collaborations (August–October 2026)
-                        </p>
-                      </div>
-                      <span className="text-xs font-bold bg-gray-100 text-gray-700 px-3 py-1 rounded-full hidden sm:inline">
-                        9 Key Engagements
-                      </span>
-                    </div>
-
-                    <div className="divide-y divide-gray-200 border border-gray-200 rounded-2xl overflow-hidden bg-white shadow-sm">
-                      {[
-                        {
-                          title: "Women's Parliament",
-                          date: "13–14 August",
-                          location: "Northern Cape",
-                          desc: "An important platform for women's participation in democratic processes, policy discussions and advocacy on issues affecting women and their communities.",
-                          badge: "Parliamentary",
-                        },
-                        {
-                          title: "702 Radio Broadcast",
-                          date: "10 August",
-                          location: "Gauteng / National",
-                          desc: "A media engagement opportunity to amplify PWMSA's advocacy priorities and contribute to public conversations on women's rights and social issues.",
-                          badge: "Broadcast",
-                        },
-                        {
-                          title: "Gertrude Shope Dialogue",
-                          date: "15 August",
-                          location: "Pretoria",
-                          desc: "An invitation associated with women's leadership, political mentorship, and constitutional empowerment.",
-                          badge: "Leadership",
-                        },
-                        {
-                          title: "eNCA Television",
-                          date: "17 August",
-                          location: "National Broadcast",
-                          desc: "A media engagement opportunity to share PWMSA's perspectives and strengthen the public visibility of its advocacy work.",
-                          badge: "Broadcast",
-                        },
-                        {
-                          title: "AIDC-EC Engagement",
-                          date: "27 August",
-                          location: "Eastern Cape",
-                          desc: "Provincial stakeholder engagement focused on economic justice, labour inclusion, and community development.",
-                          badge: "Labour & Justice",
-                        },
-                        {
-                          title: "COSATU Congress Engagement",
-                          date: "14–17 September",
-                          location: "Midrand",
-                          desc: "An invitation connected to organised labour and stakeholder engagement, strengthening dialogue on workers' rights, gender equality and women's participation.",
-                          badge: "Organised Labour",
-                        },
-                        {
-                          title: "COSATU Dialogue Session",
-                          date: "22 September",
-                          location: "Kempton Park",
-                          desc: "A further engagement opportunity involving organised labour and stakeholder collaboration on protecting female workers against retrenchments.",
-                          badge: "Organised Labour",
-                        },
-                        {
-                          title: "MQA (Mining Qualifications Authority)",
-                          date: "1 October",
-                          location: "Emperors Palace",
-                          desc: "Participation in the MQA Colloquium on gender-responsive skills planning, critical minerals, and advancing women in technical roles.",
-                          badge: "Statutory Body",
-                        },
-                        {
-                          title: "IFP Presidential Roundtable on GBVF",
-                          date: "9 October",
-                          location: "Birchwood Hotel, Boksburg",
-                          desc: "High-level engagement with political leadership and Chapter 9 institutions (CGE) advocating alliance over guardianship and economic autonomy.",
-                          badge: "Policy & GBVF",
-                        },
-                      ].map((evt, idx) => (
-                        <div
-                          key={idx}
-                          className="p-4 sm:p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-3 hover:bg-amber-50/40 transition-colors"
-                        >
-                          <div className="space-y-1">
-                            <div className="flex items-center gap-2">
-                              <h4 className="font-bold text-sm text-gray-900">
-                                {evt.title}
-                              </h4>
-                              <span className="text-[10px] bg-amber-100 text-[#715832] font-semibold px-2 py-0.5 rounded-full">
-                                {evt.badge}
-                              </span>
-                            </div>
-                            <p className="text-xs text-gray-600 max-w-2xl leading-relaxed">
-                              {evt.desc}
-                            </p>
-                          </div>
-                          <div className="text-left sm:text-right flex-shrink-0 text-xs">
-                            <span className="font-bold text-gray-900 block">{evt.date}</span>
-                            <span className="text-gray-500 flex items-center sm:justify-end gap-1">
-                              <MapPin size={11} /> {evt.location}
-                            </span>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* Section 6: Shaping the National Conversation, Holding Power to Account */}
-                  <div className="space-y-4">
-                    <div className="space-y-1">
-                      <h3 className="text-xl font-black text-gray-900">
-                        Shaping the National Conversation, Holding Power to Account
-                      </h3>
-                      <p className="text-xs text-gray-600 italic">
-                        &ldquo;Our voice in the media and in the corridors of power is a weapon of the struggle. These are the positions the Movement has advanced in the public domain.&rdquo;
-                      </p>
-                    </div>
-
-                    <div className="grid md:grid-cols-3 gap-5">
-                      <div className="bg-[#fcfaf5] p-5 rounded-2xl border-2 border-amber-300 space-y-2">
-                        <span className="text-[10px] font-black uppercase text-amber-900 tracking-wider block">
-                          Accountability
-                        </span>
-                        <h4 className="font-black text-sm text-gray-900">
-                          Monitoring Public Spending on Women
-                        </h4>
-                        <p className="text-xs text-gray-700 leading-relaxed">
-                          Monitoring public spending on gender programmes to ensure the femicide crisis remains a top national priority across municipal, provincial, and national budgets.
-                        </p>
-                      </div>
-
-                      <div className="bg-red-50 p-5 rounded-2xl border-2 border-red-300 space-y-2">
-                        <span className="text-[10px] font-black uppercase text-red-900 tracking-wider block">
-                          Fiscal Advocacy
-                        </span>
-                        <h4 className="font-black text-sm text-gray-900">
-                          Fund the GBV Disaster Response: Call to National Treasury
-                        </h4>
-                        <p className="text-xs text-gray-700 leading-relaxed">
-                          Pressing National Treasury for dedicated, sustainable funding for GBV disaster response, survivor support, and forensic staff scaling.
-                        </p>
-                      </div>
-
-                      <div className="bg-emerald-50 p-5 rounded-2xl border-2 border-emerald-300 space-y-2">
-                        <span className="text-[10px] font-black uppercase text-emerald-900 tracking-wider block">
-                          Labour &amp; Livelihoods
-                        </span>
-                        <h4 className="font-black text-sm text-gray-900">
-                          Retrenchments Are a Gender Issue
-                        </h4>
-                        <p className="text-xs text-gray-700 leading-relaxed">
-                          Demanding that the protection of women&apos;s livelihoods be prioritized in all employer and government turnaround plans amid waves of economic retrenchments.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Sign-off & Directory Footer */}
-                  <div className="pt-8 border-t-2 border-amber-200 space-y-6">
-                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                      <div>
-                        <span className="text-xs font-bold text-gray-500 uppercase tracking-wider block">
-                          Official Publication Sign-Off
-                        </span>
-                        <p className="font-black text-base text-gray-900">
-                          In solidarity, Communications Office, PWMSA
-                        </p>
-                      </div>
-                      <button
-                        onClick={handlePrint}
-                        className="inline-flex items-center gap-2 text-xs font-bold text-[#715832] border border-[#715832] px-4 py-2 rounded-xl hover:bg-[#715832] hover:text-white transition-colors cursor-pointer"
-                      >
-                        <Printer size={14} /> Print Complete Update
-                      </button>
-                    </div>
-
-                    <div className="grid sm:grid-cols-2 gap-4 bg-gray-50 p-5 rounded-2xl border border-gray-200 text-xs">
-                      <div className="space-y-1.5">
-                        <strong className="text-gray-900 block font-bold">Head Office</strong>
-                        <p className="text-gray-600">
-                          Kumbukeni Children &amp; Family Centre <br />
-                          105 William Nicol Drive, Fourways, Johannesburg
-                        </p>
-                        <p className="text-gray-700 font-medium">
-                          Tel: (011) 705 1960
-                        </p>
-                      </div>
-                      <div className="space-y-1.5">
-                        <strong className="text-gray-900 block font-bold">Contact the Movement</strong>
-                        <p className="text-gray-600">
-                          General: <a href="mailto:info@pwmsa.org.za" className="text-[#715832] underline">info@pwmsa.org.za</a> <br />
-                          Media: <a href="mailto:communications@pwmsa.org.za" className="text-[#715832] underline">communications@pwmsa.org.za</a> <br />
-                          Web: <a href="https://www.pwmsa.org.za" target="_blank" rel="noreferrer" className="text-[#715832] underline">www.pwmsa.org.za</a>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                  <Newsletter2026Document initialPage="all" showPageNavigation={true} />
                 </div>
               ) : (
                 /* ── STANDARD / VIDEO ARTICLE VIEW ── */
