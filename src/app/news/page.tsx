@@ -11,7 +11,7 @@ export const metadata: Metadata = {
       "Stay informed with the latest communications, advocacy dispatches, stakeholder roundtables, and campaign news from PWMSA.",
     images: [
       {
-        url: "https://pwmsa.org.za/wp-content/uploads/20241012_132501.jpg",
+        url: "/images/news/national-treasury-gbv-funding.jpg",
         width: 1200,
         height: 675,
         alt: "PWMSA News & Statements",
