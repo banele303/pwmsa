@@ -42,4 +42,5 @@ next-env.d.ts
 
 # large video files (>100MB GitHub limit)
 *.mp4
+!public/images/video-main.mp4
 

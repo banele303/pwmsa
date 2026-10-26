@@ -106,9 +106,9 @@ const KB: Array<{ patterns: RegExp[]; answer: string }> = [
       "We welcome partners from all sectors! PWMSA offers **4 partnership types**:\n\n🏢 **Corporate & Business** — brand visibility, BBBEE recognition\n🏛️ **Government & Institutional** — joint programmes, grassroots reach\n❤️ **NGO & Civil Society** — coalition membership, shared campaigns\n💰 **Donor & Funding** — named recognition, tax certificates\n\nSubmit an enquiry at [/partner](/partner) — our team responds within 3 business days.",
   },
   {
-    patterns: [/news|statement|press|media|release|article/i],
+    patterns: [/news|statement|press|media|release|article|update|newsletter/i],
     answer:
-      "Stay up to date with PWMSA's latest news at [/news](/news). Recent highlights:\n\n• Women's Parliament 2026 — Declaration Report presented in Northern Cape\n• GBVF March in Soweto demanding justice\n• Youth Representative Ms Phumelela Zigoxo addresses national conference\n• Enterprise Development launch in Mpumalanga\n• Jukskei River community clean-up",
+      "Stay up to date with PWMSA's latest dispatches at [/news](/news). Recent highlights:\n\n• **Communications, Advocacy & Organisational Update (Aug–Oct 2026)** — Marking 20 years since Bloemfontein & 70 years since 1956\n• **Fund the GBV Disaster Response** — Urgent submission to National Treasury\n• **Retrenchments Are a Gender Issue** — Protecting women's livelihoods\n• **Women's Parliament 2026** — CEO Lulama Nare tables landmark declaration report in Kimberley\n• **GBVF Emergency Action** — Demanding accountability for Ekurhuleni victims\n• **Youth Empowerment** — Ms Phumelela Zigoxo at national youth forum",
   },
   {
     patterns: [/province|provincial|gauteng|western cape|kwazulu|eastern cape|limpopo|mpumalanga|north west|free state|northern cape/i],
